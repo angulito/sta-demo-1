@@ -4,4 +4,4 @@ Fix #<gh-issue-id>
 
 Test URLs:
 - Before: https://main--sta-demo-1--angulito.aem.live/
-- After: https://<branch>--sta-demo-1--angulito.aem.live/
+- After: https://main--sta-demo-1--angulito.aem.live/
