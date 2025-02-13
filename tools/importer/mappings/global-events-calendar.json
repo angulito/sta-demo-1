@@ -1,0 +1,126 @@
+{
+  "url": "https://www.thechannelco.com/global-events-calendar/",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[1]/header[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/footer[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[2]",
+    "hash": 835644198
+  },
+  "pageHeight": 9363,
+  "mapping": [
+    {
+      "id": 2,
+      "path": "/global-events-calendar/index",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-950914379",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 500,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 0,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-tivjpr-box-id-950914379"
+            },
+            {
+              "id": "box-id-950914410",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 84,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 500,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-tivjpr-box-id-950914410"
+            },
+            {
+              "id": "box-id-50689183",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 44,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 584,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-tivjpr-box-id-50689183"
+            },
+            {
+              "id": "box-id-50689214",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 60,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 636,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-tivjpr-box-id-50689214"
+            },
+            {
+              "id": "box-id--197540",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 853,
+              "height": 7875,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 799,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-tivjpr-197540"
+            },
+            {
+              "id": "box-id--197509",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 426,
+              "height": 7875,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 853,
+              "y": 799,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-tivjpr-197509"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

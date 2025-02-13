@@ -1,0 +1,245 @@
+{
+  "url": "https://www.thechannelco.com/events/",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[1]/header[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]\n  /html[1]/body[1]/div[1]/footer[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[2]",
+    "hash": -1052186560
+  },
+  "pageHeight": 5707,
+  "mapping": [
+    {
+      "id": 2,
+      "path": "/events/index",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-950914379",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 670,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 0,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-im5cda-box-id-950914379"
+            },
+            {
+              "id": "box-id--1242253238",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 146,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 730,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-im5cda-1242253238"
+            },
+            {
+              "id": "box-id--1242253207",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 254,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"iconcolumns_block_8e1222e4bc21a10ca99a62621615a090\")/div[@class=\"container\"]/div[@class=\"row icon-columns\"]/div[@class=\"col-lg-4 icon-column mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"iconcolumns_block_8e1222e4bc21a10ca99a62621615a090\")/div[@class=\"container\"]/div[@class=\"row icon-columns\"]/div[@class=\"col-lg-4 icon-column mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[3]",
+                  "xpathWithDetails": "id(\"iconcolumns_block_8e1222e4bc21a10ca99a62621615a090\")/div[@class=\"container\"]/div[@class=\"row icon-columns\"]/div[@class=\"col-lg-4 icon-column mb-4\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 876,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-im5cda-1242253207"
+            },
+            {
+              "id": "box-id-950914441",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 443,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 1190,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-im5cda-box-id-950914441"
+            },
+            {
+              "id": "box-id--1322225048",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 800,
+              "height": 95,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 240,
+              "y": 1693,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-im5cda-1322225048"
+            },
+            {
+              "id": "box-id--1322225017",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 789,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"challenges_block_6e5344e88c34a3efad70f25da4c2404a\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"challenges_block_6e5344e88c34a3efad70f25da4c2404a\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "xpathWithDetails": "id(\"challenges_block_6e5344e88c34a3efad70f25da4c2404a\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 1836,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-im5cda-1322225017"
+            },
+            {
+              "id": "box-id-950914503",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 610,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 2685,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-im5cda-box-id-950914503"
+            },
+            {
+              "id": "box-id-1010577350",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 146,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 3355,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-im5cda-box-id-1010577350"
+            },
+            {
+              "id": "box-id-1010577381",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 982,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"brands_block_b028514646b0e00ee5ef5a28714fc96b\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"brands_block_b028514646b0e00ee5ef5a28714fc96b\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[3]",
+                  "xpathWithDetails": "id(\"brands_block_b028514646b0e00ee5ef5a28714fc96b\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[4]",
+                  "xpathWithDetails": "id(\"brands_block_b028514646b0e00ee5ef5a28714fc96b\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[5]",
+                  "xpathWithDetails": "id(\"brands_block_b028514646b0e00ee5ef5a28714fc96b\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[6]",
+                  "xpathWithDetails": "id(\"brands_block_b028514646b0e00ee5ef5a28714fc96b\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[7]",
+                  "xpathWithDetails": "id(\"brands_block_b028514646b0e00ee5ef5a28714fc96b\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 4,
+                "numRows": 2
+              },
+              "x": 0,
+              "y": 3501,
+              "mapping": "cards",
+              "customBlockName": "aicards-im5cda-box-id-1010577381"
+            },
+            {
+              "id": "box-id-950914565",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 536,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 4543,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-im5cda-box-id-950914565"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

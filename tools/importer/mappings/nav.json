@@ -1,0 +1,46 @@
+{
+  "url": "https://www.thechannelco.com/",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[1]/header[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[3]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[8]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[8]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[8]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[9]\n  /html[1]/body[1]/div[1]/footer[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[2]",
+    "hash": -1774797972
+  },
+  "pageHeight": 7120,
+  "mapping": [
+    {
+      "id": "nav-1",
+      "path": "/nav",
+      "sections": [
+        {
+          "id": "nav-1-1",
+          "blocks": [
+            {
+              "id": "box-id-1831135597",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 92,
+              "xpath": "/html[1]/body[1]/div[1]/header[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 0,
+              "mapping": "header",
+              "customBlockName": "aiheader-eap460-box-id-1831135597"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

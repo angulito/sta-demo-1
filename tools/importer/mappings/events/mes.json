@@ -1,0 +1,624 @@
+{
+  "url": "https://www.thechannelco.com/events/mes/",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[1]/header[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[3]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[4]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[5]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[7]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[8]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[9]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[10]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/h3[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/p[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]\n  /html[1]/body[1]/div[1]/footer[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[2]",
+    "hash": 585481546
+  },
+  "pageHeight": 7772,
+  "mapping": [
+    {
+      "id": 2,
+      "path": "/events/mes/index",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-950914379",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 500,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 0,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-950914379"
+            },
+            {
+              "id": "box-id-50689183",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 40,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 500,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-50689183"
+            },
+            {
+              "id": "box-id-50689214",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 88,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 540,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-50689214"
+            },
+            {
+              "id": "box-id-50689245",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 90,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[3]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 636,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-50689245"
+            },
+            {
+              "id": "box-id-50689276",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 120,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[4]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 742,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-50689276"
+            },
+            {
+              "id": "box-id-50689307",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 30,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[5]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 878,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-50689307"
+            },
+            {
+              "id": "box-id-50689369",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 44,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[7]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 951,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-50689369"
+            },
+            {
+              "id": "box-id-50689400",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 60,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[8]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 1003,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-50689400"
+            },
+            {
+              "id": "box-id--1242253238",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 8,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 1099,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-1242253238"
+            },
+            {
+              "id": "box-id--1242253207",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 1855,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"eventtypes_block_86d09222e2fd755938853b26a5cb8e11\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-6 event-type mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"eventtypes_block_86d09222e2fd755938853b26a5cb8e11\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-6 event-type mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[3]",
+                  "xpathWithDetails": "id(\"eventtypes_block_86d09222e2fd755938853b26a5cb8e11\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-6 event-type mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[4]",
+                  "xpathWithDetails": "id(\"eventtypes_block_86d09222e2fd755938853b26a5cb8e11\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-6 event-type mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[5]",
+                  "xpathWithDetails": "id(\"eventtypes_block_86d09222e2fd755938853b26a5cb8e11\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-6 event-type mb-4\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 3
+              },
+              "x": 0,
+              "y": 1107,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-kiqowi-1242253207"
+            },
+            {
+              "id": "box-id-50689431",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 44,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[9]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 2982,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-50689431"
+            },
+            {
+              "id": "box-id-1571363371",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 30,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[10]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 3034,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-1571363371"
+            },
+            {
+              "id": "box-id--1752787415",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 8,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 3100,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-1752787415"
+            },
+            {
+              "id": "box-id--1752787384",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 1016,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"eventtypes_block_d848352c827c73ec920b2bc0c8ce9c79\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-4 event-type mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"eventtypes_block_d848352c827c73ec920b2bc0c8ce9c79\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-4 event-type mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[3]",
+                  "xpathWithDetails": "id(\"eventtypes_block_d848352c827c73ec920b2bc0c8ce9c79\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-4 event-type mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[4]",
+                  "xpathWithDetails": "id(\"eventtypes_block_d848352c827c73ec920b2bc0c8ce9c79\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-4 event-type mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[5]",
+                  "xpathWithDetails": "id(\"eventtypes_block_d848352c827c73ec920b2bc0c8ce9c79\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-4 event-type mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[6]",
+                  "xpathWithDetails": "id(\"eventtypes_block_d848352c827c73ec920b2bc0c8ce9c79\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-4 event-type mb-4\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 3,
+                "numRows": 2
+              },
+              "x": 0,
+              "y": 3108,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-kiqowi-1752787384"
+            },
+            {
+              "id": "box-id-950914472",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 662,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"basiccontentblock_87f2d8ae56d358b0140eef7691584dfa\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-4 mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"basiccontentblock_87f2d8ae56d358b0140eef7691584dfa\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-8\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 4145,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-kiqowi-box-id-950914472"
+            },
+            {
+              "id": "box-id-1521111527",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 16,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 4867,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-1521111527"
+            },
+            {
+              "id": "box-id-1521111558",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 400,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"video_columns_block_f99e5e9f7e2b5e5bd27f4df0e7e3de87\")/div[@class=\"container\"]/div[@class=\"row video-rows\"]/div[@class=\"col-md-12\"]/div[@class=\"row video-row mb-4\"]/div[@class=\"col-md-6 video-col mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[2]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"video_columns_block_f99e5e9f7e2b5e5bd27f4df0e7e3de87\")/div[@class=\"container\"]/div[@class=\"row video-rows\"]/div[@class=\"col-md-12\"]/div[@class=\"row video-row mb-4\"]/div[@class=\"col-md-6\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 4883,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-kiqowi-box-id-1521111558"
+            },
+            {
+              "id": "box-id-1010577350",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 114,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 5403,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-1010577350"
+            },
+            {
+              "id": "box-id-1010577381",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 462,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"image_columns_block_abf1d5b7c658baa6a2d4d15d71387af6\")/div[@class=\"container\"]/div[@class=\"row image-rows\"]/div[@class=\"col-md-4 image-col mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"image_columns_block_abf1d5b7c658baa6a2d4d15d71387af6\")/div[@class=\"container\"]/div[@class=\"row image-rows\"]/div[@class=\"col-md-4 image-col mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[3]",
+                  "xpathWithDetails": "id(\"image_columns_block_abf1d5b7c658baa6a2d4d15d71387af6\")/div[@class=\"container\"]/div[@class=\"row image-rows\"]/div[@class=\"col-md-4 image-col mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[4]",
+                  "xpathWithDetails": "id(\"image_columns_block_abf1d5b7c658baa6a2d4d15d71387af6\")/div[@class=\"container\"]/div[@class=\"row image-rows\"]/div[@class=\"col-md-4 image-col mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[5]",
+                  "xpathWithDetails": "id(\"image_columns_block_abf1d5b7c658baa6a2d4d15d71387af6\")/div[@class=\"container\"]/div[@class=\"row image-rows\"]/div[@class=\"col-md-4 image-col mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[6]",
+                  "xpathWithDetails": "id(\"image_columns_block_abf1d5b7c658baa6a2d4d15d71387af6\")/div[@class=\"container\"]/div[@class=\"row image-rows\"]/div[@class=\"col-md-4 image-col mb-4\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 3,
+                "numRows": 2
+              },
+              "x": 0,
+              "y": 5517,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-kiqowi-box-id-1010577381"
+            },
+            {
+              "id": "box-id--1008825870",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1256,
+              "height": 24,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/h3[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 12,
+              "y": 6100,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-1008825870"
+            },
+            {
+              "id": "box-id--32267263",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1256,
+              "height": 30,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/p[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 12,
+              "y": 6132,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-32267263"
+            },
+            {
+              "id": "box-id-898560209",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 800,
+              "height": 86,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 240,
+              "y": 6178,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-898560209"
+            },
+            {
+              "id": "box-id-898560240",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 800,
+              "height": 86,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 240,
+              "y": 6264,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-898560240"
+            },
+            {
+              "id": "box-id-898560271",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 800,
+              "height": 86,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 240,
+              "y": 6351,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-898560271"
+            },
+            {
+              "id": "box-id-898560302",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 800,
+              "height": 86,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[4]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 240,
+              "y": 6438,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-898560302"
+            },
+            {
+              "id": "box-id-898560333",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 800,
+              "height": 86,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[5]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 240,
+              "y": 6524,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-898560333"
+            },
+            {
+              "id": "box-id-898560364",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 800,
+              "height": 86,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[6]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 240,
+              "y": 6611,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-898560364"
+            },
+            {
+              "id": "box-id-898560395",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 800,
+              "height": 86,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 240,
+              "y": 6697,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-898560395"
+            },
+            {
+              "id": "box-id-898560457",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 800,
+              "height": 86,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[9]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 240,
+              "y": 6784,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-898560457"
+            },
+            {
+              "id": "box-id-2085561401",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 800,
+              "height": 106,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[10]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[10]/div[1]/div[2]/label[1]",
+                  "xpathWithDetails": "id(\"LbleVFormKeepMeInformedWhatEventInterestedIn\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[10]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"mktoForm_3944\")/div[@class=\"mktoFormRow\"]/div[@class=\"mktoFieldDescriptor mktoFormCol\"]/div[@class=\"mktoFieldWrap\"]/div[@class=\"mktoLogicalField mktoCheckboxList mktoHasWidth\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 240,
+              "y": 6870,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-kiqowi-box-id-2085561401"
+            },
+            {
+              "id": "box-id-2085561432",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 800,
+              "height": 60,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[11]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 240,
+              "y": 6977,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-kiqowi-box-id-2085561432"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

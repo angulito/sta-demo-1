@@ -1,0 +1,179 @@
+{
+  "originUrl": "https://www.thechannelco.com/",
+  "totalUrls": 35,
+  "urls": [
+    {
+      "url": "https://www.thechannelco.com/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/solutions/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/solutions/audiences/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/solutions/activations/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/events/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/global-events-calendar/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/brands/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/events/mes/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/wotc/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/xchange/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/resources/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/why-tcc/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/about-us/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/careers/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/contact-us/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.thechannelco.com/the-channel-company-video-solutions/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/why-are-80-of-channel-partners-underperforming/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/8-ways-to-gain-it-leader-interest-and-sustain-their-confidence/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/make-it-reign/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/the-top-9-metrics-that-matter-most-for-channel-partner-marketing-success/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/the-case-for-video-in-mdf-lead-gen-campaigns/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/what-genai-momentum-means-for-the-it-channel/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/5-ways-to-become-a-trusted-cyber-security-thought-leader/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/people-first-language-motivational-minutes/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/dr-ashley-goodwin-ingram-micro-woman-of-the-week-wow/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/benefits-of-a-diverse-workplace-motivational-minutes/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/mes-empowering-and-connecting-senior-midmarket-it-leaders/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/ai-fluent-part-1/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/ai-fluent-part-2/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/communities/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/channelytics/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/channel-leadership-forum/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/partners/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.thechannelco.com/channel-masters/",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {}
+  }
+}

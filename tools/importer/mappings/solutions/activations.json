@@ -1,0 +1,112 @@
+{
+  "url": "https://www.thechannelco.com/solutions/activations/",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[1]/header[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/ul[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]\n  /html[1]/body[1]/div[1]/footer[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[2]",
+    "hash": -1637937872
+  },
+  "pageHeight": 3159,
+  "mapping": [
+    {
+      "id": 2,
+      "path": "/solutions/activations/index",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-950914379",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 672,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 0,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-eo2cpr-box-id-950914379"
+            },
+            {
+              "id": "box-id-950914410",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 777,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"tabbed_content_block_ebd1f345211b3d7d7350d0a4030dcf74\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-6\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"tabbed_content_block_ebd1f345211b3d7d7350d0a4030dcf74\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-6\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 672,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-eo2cpr-box-id-950914410"
+            },
+            {
+              "id": "box-id-950914441",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 545,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"quote_slider_block_19eb328eaad70afd6fd027e4922cd383\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/div[@class=\"slick-list draggable\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/ul[1]",
+                  "xpathWithDetails": "id(\"quote_slider_block_19eb328eaad70afd6fd027e4922cd383\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/ul[@class=\"slick-dots\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 1,
+                "numRows": 2
+              },
+              "x": 0,
+              "y": 1449,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-eo2cpr-box-id-950914441"
+            },
+            {
+              "id": "box-id-950914472",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 536,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 1995,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-eo2cpr-box-id-950914472"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

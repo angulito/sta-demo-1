@@ -1,11 +1,11 @@
-# sta-demo-1
+# angulohe-sta-demo
 
 This is a project created by AEMY.
 
 ## Environments
 
-- Preview: https://main--sta-demo-1--angulito.aem.page/
-- Live: https://main--sta-demo-1--angulito.aem.live/
+- Preview: https://main--angulohe-sta-demo--aemdemos.aem.page/
+- Live: https://main--angulohe-sta-demo--aemdemos.aem.live/
 
 ## Installation
 
@@ -23,4 +23,4 @@ npm run lint
 
 1. Install the [AEM CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/aem-cli`
 1. Start AEM Proxy: `aem up` (opens your browser at `http://localhost:3000/`)
-1. Open the `sta-demo-1` directory in your favorite IDE and start coding :)
+1. Open the `angulohe-sta-demo` directory in your favorite IDE and start coding :)

@@ -1,0 +1,2595 @@
+{
+  "inventory": {
+    "blocks": [
+      {
+        "blockName": "header",
+        "instances": [
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id-1831135597",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 92,
+            "xpath": "/html[1]/body[1]/div[1]/header[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 0,
+            "mapping": "header",
+            "customBlockName": "aiheader-eap460-box-id-1831135597"
+          }
+        ]
+      },
+      {
+        "blockName": "columns",
+        "instances": [
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id-1397527455",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 628,
+            "xpath": "/html[1]/body[1]/div[1]/footer[1]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"colophon\")/div[@class=\"footer-wrapper main\"]/div[@class=\"container\"]/div[@class=\"row footer-row\"]/div[@class=\"col-md-5 footer-branding\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"colophon\")/div[@class=\"footer-wrapper main\"]/div[@class=\"container\"]/div[@class=\"row footer-row\"]/div[@class=\"col-md-7 footer-menu\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 6492,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-eap460-box-id-1397527455"
+          },
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id-950914410",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 577,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"tabbed_content_block_9f9d8a033b235b441d43cef8baa173e5\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-6\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"tabbed_content_block_9f9d8a033b235b441d43cef8baa173e5\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-6\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 768,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-eap460-box-id-950914410"
+          },
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id--1322225017",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 418,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"stats_block_c9cf9a83d7564b27a50647f86510d089\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row stats\"]/div[@class=\"col-md-4 stat mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"stats_block_c9cf9a83d7564b27a50647f86510d089\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row stats\"]/div[@class=\"col-md-4 stat mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"stats_block_c9cf9a83d7564b27a50647f86510d089\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row stats\"]/div[@class=\"col-md-4 stat mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                "xpathWithDetails": "id(\"stats_block_c9cf9a83d7564b27a50647f86510d089\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row stats\"]/div[@class=\"col-md-4 stat mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[5]",
+                "xpathWithDetails": "id(\"stats_block_c9cf9a83d7564b27a50647f86510d089\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row stats\"]/div[@class=\"col-md-4 stat mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[6]",
+                "xpathWithDetails": "id(\"stats_block_c9cf9a83d7564b27a50647f86510d089\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row stats\"]/div[@class=\"col-md-4 stat mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 3,
+              "numRows": 2
+            },
+            "x": 0,
+            "y": 2787,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-eap460-1322225017"
+          },
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id--1835821283",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 130,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"partners_block_134c6b93e24b3f4e3ef5955c28ba34df\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"partners_block_134c6b93e24b3f4e3ef5955c28ba34df\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[3]",
+                "xpathWithDetails": "id(\"partners_block_134c6b93e24b3f4e3ef5955c28ba34df\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[4]",
+                "xpathWithDetails": "id(\"partners_block_134c6b93e24b3f4e3ef5955c28ba34df\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[5]",
+                "xpathWithDetails": "id(\"partners_block_134c6b93e24b3f4e3ef5955c28ba34df\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[6]",
+                "xpathWithDetails": "id(\"partners_block_134c6b93e24b3f4e3ef5955c28ba34df\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[7]",
+                "xpathWithDetails": "id(\"partners_block_134c6b93e24b3f4e3ef5955c28ba34df\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[8]",
+                "xpathWithDetails": "id(\"partners_block_134c6b93e24b3f4e3ef5955c28ba34df\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[9]",
+                "xpathWithDetails": "id(\"partners_block_134c6b93e24b3f4e3ef5955c28ba34df\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[10]",
+                "xpathWithDetails": "id(\"partners_block_134c6b93e24b3f4e3ef5955c28ba34df\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 10,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 3466,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-eap460-1835821283"
+          },
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id-1010577381",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 322,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"resources_block_49a5a5909a9e425e2f2a42fc537c2084\")/div[@class=\"container\"]/div[@class=\"row resources\"]/div[@class=\"col-lg-6 col-xl-3 resource mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"resources_block_49a5a5909a9e425e2f2a42fc537c2084\")/div[@class=\"container\"]/div[@class=\"row resources\"]/div[@class=\"col-lg-6 col-xl-3 resource mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"resources_block_49a5a5909a9e425e2f2a42fc537c2084\")/div[@class=\"container\"]/div[@class=\"row resources\"]/div[@class=\"col-lg-6 col-xl-3 resource mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[4]",
+                "xpathWithDetails": "id(\"resources_block_49a5a5909a9e425e2f2a42fc537c2084\")/div[@class=\"container\"]/div[@class=\"row resources\"]/div[@class=\"col-lg-6 col-xl-3 resource mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 4,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 3817,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-eap460-box-id-1010577381"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/",
+            "id": "box-id--1242253207",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 1803,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"solutions_block_37275d89c107c7c33fc2cbcc5868bee6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"solutions_block_37275d89c107c7c33fc2cbcc5868bee6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[2]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"solutions_block_37275d89c107c7c33fc2cbcc5868bee6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[2]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"solutions_block_37275d89c107c7c33fc2cbcc5868bee6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[3]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"solutions_block_37275d89c107c7c33fc2cbcc5868bee6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[3]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"solutions_block_37275d89c107c7c33fc2cbcc5868bee6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 3
+            },
+            "x": 0,
+            "y": 844,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-xj0b7-1242253207"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/",
+            "id": "box-id--1333541144",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 523,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"challenges_block_809d889c4560d89badd3e8fbc8b2cd58\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"challenges_block_809d889c4560d89badd3e8fbc8b2cd58\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"challenges_block_809d889c4560d89badd3e8fbc8b2cd58\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 3,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 2940,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-xj0b7-1333541144"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/",
+            "id": "box-id--1835821283",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 120,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[3]",
+                "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[4]",
+                "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[5]",
+                "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[6]",
+                "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[7]",
+                "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[8]",
+                "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[9]",
+                "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 9,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 4279,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-xj0b7-1835821283"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/audiences/",
+            "id": "box-id-950914410",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 611,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"tabbed_content_block_ae967cccd07690cd19df1fad3d5a13ac\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-6\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"tabbed_content_block_ae967cccd07690cd19df1fad3d5a13ac\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-6\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 706,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-dirnx-box-id-950914410"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/audiences/",
+            "id": "box-id--1333541144",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 450,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"platforms_block_340c05cd1a431d19ff1e8439fd099e79\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row platforms\"]/div[@class=\"col-md-4 platform mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"platforms_block_340c05cd1a431d19ff1e8439fd099e79\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row platforms\"]/div[@class=\"col-md-4 platform mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"platforms_block_340c05cd1a431d19ff1e8439fd099e79\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row platforms\"]/div[@class=\"col-md-4 platform mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 3,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 1469,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-dirnx-1333541144"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/audiences/",
+            "id": "box-id--1310908890",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 478,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"stats_block_75e6eecf3b3f17a4343823c2eb7aa62c\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row stats\"]/div[@class=\"col-md-4 stat mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"stats_block_75e6eecf3b3f17a4343823c2eb7aa62c\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row stats\"]/div[@class=\"col-md-4 stat mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"stats_block_75e6eecf3b3f17a4343823c2eb7aa62c\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row stats\"]/div[@class=\"col-md-4 stat mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                "xpathWithDetails": "id(\"stats_block_75e6eecf3b3f17a4343823c2eb7aa62c\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row stats\"]/div[@class=\"col-md-4 stat mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]/div[5]",
+                "xpathWithDetails": "id(\"stats_block_75e6eecf3b3f17a4343823c2eb7aa62c\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row stats\"]/div[@class=\"col-md-4 stat mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]/div[6]",
+                "xpathWithDetails": "id(\"stats_block_75e6eecf3b3f17a4343823c2eb7aa62c\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row stats\"]/div[@class=\"col-md-4 stat mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 3,
+              "numRows": 2
+            },
+            "x": 0,
+            "y": 2970,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-dirnx-1310908890"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id-950914410",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 756,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"tabbed_content_block_576eb6ea7f18f5429a58207016c55789\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-6\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"tabbed_content_block_576eb6ea7f18f5429a58207016c55789\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-6\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 706,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-aopauq-box-id-950914410"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id-2031645735",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 436,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"brands_block_13801e39d7b1766395118aa816a04c21\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"brands_block_13801e39d7b1766395118aa816a04c21\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"brands_block_13801e39d7b1766395118aa816a04c21\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]/div[4]",
+                "xpathWithDetails": "id(\"brands_block_13801e39d7b1766395118aa816a04c21\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 4,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 2266,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-aopauq-box-id-2031645735"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id--1310908890",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 603,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"challenges_block_adc7b5eb9addb4cdeab6bb0260de8807\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"challenges_block_adc7b5eb9addb4cdeab6bb0260de8807\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"challenges_block_adc7b5eb9addb4cdeab6bb0260de8807\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 3,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 2995,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-aopauq-1310908890"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/activations/",
+            "id": "box-id-950914410",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 777,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"tabbed_content_block_ebd1f345211b3d7d7350d0a4030dcf74\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-6\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"tabbed_content_block_ebd1f345211b3d7d7350d0a4030dcf74\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-6\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 672,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-eo2cpr-box-id-950914410"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/",
+            "id": "box-id--1242253207",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 254,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"iconcolumns_block_8e1222e4bc21a10ca99a62621615a090\")/div[@class=\"container\"]/div[@class=\"row icon-columns\"]/div[@class=\"col-lg-4 icon-column mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"iconcolumns_block_8e1222e4bc21a10ca99a62621615a090\")/div[@class=\"container\"]/div[@class=\"row icon-columns\"]/div[@class=\"col-lg-4 icon-column mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"iconcolumns_block_8e1222e4bc21a10ca99a62621615a090\")/div[@class=\"container\"]/div[@class=\"row icon-columns\"]/div[@class=\"col-lg-4 icon-column mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 3,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 876,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-im5cda-1242253207"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/",
+            "id": "box-id--1322225017",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 789,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"challenges_block_6e5344e88c34a3efad70f25da4c2404a\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"challenges_block_6e5344e88c34a3efad70f25da4c2404a\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"challenges_block_6e5344e88c34a3efad70f25da4c2404a\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 3,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 1836,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-im5cda-1322225017"
+          },
+          {
+            "url": "https://www.thechannelco.com/brands/",
+            "id": "box-id--1242253207",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 4378,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[2]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[2]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[3]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[3]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[4]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[4]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[5]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[5]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[6]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[6]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[7]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[7]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[8]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[8]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"solutions_block_931ce1e60cefc58d69ea2efbe9564ba6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 8
+            },
+            "x": 0,
+            "y": 704,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-rdfi45-1242253207"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id--1242253207",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 1855,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"eventtypes_block_86d09222e2fd755938853b26a5cb8e11\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-6 event-type mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"eventtypes_block_86d09222e2fd755938853b26a5cb8e11\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-6 event-type mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"eventtypes_block_86d09222e2fd755938853b26a5cb8e11\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-6 event-type mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[4]",
+                "xpathWithDetails": "id(\"eventtypes_block_86d09222e2fd755938853b26a5cb8e11\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-6 event-type mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[5]",
+                "xpathWithDetails": "id(\"eventtypes_block_86d09222e2fd755938853b26a5cb8e11\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-6 event-type mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 3
+            },
+            "x": 0,
+            "y": 1107,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-kiqowi-1242253207"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id--1752787384",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 1016,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"eventtypes_block_d848352c827c73ec920b2bc0c8ce9c79\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-4 event-type mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"eventtypes_block_d848352c827c73ec920b2bc0c8ce9c79\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-4 event-type mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"eventtypes_block_d848352c827c73ec920b2bc0c8ce9c79\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-4 event-type mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[4]",
+                "xpathWithDetails": "id(\"eventtypes_block_d848352c827c73ec920b2bc0c8ce9c79\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-4 event-type mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[5]",
+                "xpathWithDetails": "id(\"eventtypes_block_d848352c827c73ec920b2bc0c8ce9c79\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-4 event-type mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[6]",
+                "xpathWithDetails": "id(\"eventtypes_block_d848352c827c73ec920b2bc0c8ce9c79\")/div[@class=\"container\"]/div[@class=\"row event_types justify-content-center\"]/div[@class=\"col-md-4 event-type mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 3,
+              "numRows": 2
+            },
+            "x": 0,
+            "y": 3108,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-kiqowi-1752787384"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-950914472",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 662,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"basiccontentblock_87f2d8ae56d358b0140eef7691584dfa\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-4 mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"basiccontentblock_87f2d8ae56d358b0140eef7691584dfa\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-8\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 4145,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-kiqowi-box-id-950914472"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-1521111558",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 400,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"video_columns_block_f99e5e9f7e2b5e5bd27f4df0e7e3de87\")/div[@class=\"container\"]/div[@class=\"row video-rows\"]/div[@class=\"col-md-12\"]/div[@class=\"row video-row mb-4\"]/div[@class=\"col-md-6 video-col mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[2]/div[1]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"video_columns_block_f99e5e9f7e2b5e5bd27f4df0e7e3de87\")/div[@class=\"container\"]/div[@class=\"row video-rows\"]/div[@class=\"col-md-12\"]/div[@class=\"row video-row mb-4\"]/div[@class=\"col-md-6\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 4883,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-kiqowi-box-id-1521111558"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-1010577381",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 462,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"image_columns_block_abf1d5b7c658baa6a2d4d15d71387af6\")/div[@class=\"container\"]/div[@class=\"row image-rows\"]/div[@class=\"col-md-4 image-col mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"image_columns_block_abf1d5b7c658baa6a2d4d15d71387af6\")/div[@class=\"container\"]/div[@class=\"row image-rows\"]/div[@class=\"col-md-4 image-col mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"image_columns_block_abf1d5b7c658baa6a2d4d15d71387af6\")/div[@class=\"container\"]/div[@class=\"row image-rows\"]/div[@class=\"col-md-4 image-col mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[4]",
+                "xpathWithDetails": "id(\"image_columns_block_abf1d5b7c658baa6a2d4d15d71387af6\")/div[@class=\"container\"]/div[@class=\"row image-rows\"]/div[@class=\"col-md-4 image-col mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[5]",
+                "xpathWithDetails": "id(\"image_columns_block_abf1d5b7c658baa6a2d4d15d71387af6\")/div[@class=\"container\"]/div[@class=\"row image-rows\"]/div[@class=\"col-md-4 image-col mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[6]",
+                "xpathWithDetails": "id(\"image_columns_block_abf1d5b7c658baa6a2d4d15d71387af6\")/div[@class=\"container\"]/div[@class=\"row image-rows\"]/div[@class=\"col-md-4 image-col mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 3,
+              "numRows": 2
+            },
+            "x": 0,
+            "y": 5517,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-kiqowi-box-id-1010577381"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-2085561401",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 800,
+            "height": 106,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[10]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[10]/div[1]/div[2]/label[1]",
+                "xpathWithDetails": "id(\"LbleVFormKeepMeInformedWhatEventInterestedIn\")"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[10]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"mktoForm_3944\")/div[@class=\"mktoFormRow\"]/div[@class=\"mktoFieldDescriptor mktoFormCol\"]/div[@class=\"mktoFieldWrap\"]/div[@class=\"mktoLogicalField mktoCheckboxList mktoHasWidth\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 1
+            },
+            "x": 240,
+            "y": 6870,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-kiqowi-box-id-2085561401"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id-950914410",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 756,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"tabbed_content_block_576eb6ea7f18f5429a58207016c55789\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-6\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"tabbed_content_block_576eb6ea7f18f5429a58207016c55789\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-lg-6\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 706,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-aopauq-box-id-950914410"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id-2031645735",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 436,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"brands_block_13801e39d7b1766395118aa816a04c21\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"brands_block_13801e39d7b1766395118aa816a04c21\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"brands_block_13801e39d7b1766395118aa816a04c21\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]/div[4]",
+                "xpathWithDetails": "id(\"brands_block_13801e39d7b1766395118aa816a04c21\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 4,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 2266,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-aopauq-box-id-2031645735"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id--1310908890",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 603,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"challenges_block_adc7b5eb9addb4cdeab6bb0260de8807\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"challenges_block_adc7b5eb9addb4cdeab6bb0260de8807\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"challenges_block_adc7b5eb9addb4cdeab6bb0260de8807\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 3,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 2995,
+            "mapping": "columns",
+            "customBlockName": "aicolumns-aopauq-1310908890"
+          }
+        ]
+      },
+      {
+        "blockName": "defaultContent",
+        "instances": [
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id-950914379",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 768,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 0,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-eap460-box-id-950914379"
+          },
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id--1752787415",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 128,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 1405,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-eap460-1752787415"
+          },
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id--1752787384",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 1020,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[6]",
+                "xpathWithDetails": "id(\"infographic_block_7fb62e7d0bfe919e0f6d54a7416aa339\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12 text-center\"]/div[@class=\"inner-image\"]/div[@class=\"infographic-item blue mb-3\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"infographic_block_7fb62e7d0bfe919e0f6d54a7416aa339\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12 text-center\"]/div[@class=\"inner-image\"]/div[@class=\"infographic-item purple mb-3\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[1]/div[1]/img[1]",
+                "xpathWithDetails": "id(\"infographic_block_7fb62e7d0bfe919e0f6d54a7416aa339\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12 text-center\"]/div[@class=\"inner-image\"]/img[@class=\"attachment-full size-full\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"infographic_block_7fb62e7d0bfe919e0f6d54a7416aa339\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12 text-center\"]/div[@class=\"inner-image\"]/div[@class=\"infographic-item orange mb-3\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[5]",
+                "xpathWithDetails": "id(\"infographic_block_7fb62e7d0bfe919e0f6d54a7416aa339\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12 text-center\"]/div[@class=\"inner-image\"]/div[@class=\"infographic-item red mb-3\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[3]",
+                "xpathWithDetails": "id(\"infographic_block_7fb62e7d0bfe919e0f6d54a7416aa339\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12 text-center\"]/div[@class=\"inner-image\"]/div[@class=\"infographic-item slate mb-3\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 3
+            },
+            "x": 0,
+            "y": 1533,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-eap460-1752787384"
+          },
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id--1322225048",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1256,
+            "height": 44,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 12,
+            "y": 2693,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-eap460-1322225048"
+          },
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id--1322224986",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 43,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[3]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 3205,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-eap460-1322224986"
+          },
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id--1835821314",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 98,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 3368,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-eap460-1835821314"
+          },
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id-1010577350",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 100,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 3717,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-eap460-box-id-1010577350"
+          },
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id-500043173",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 146,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 4259,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-eap460-box-id-500043173"
+          },
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id--10491004",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 52,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[8]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 5419,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-eap460-10491004"
+          },
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id--10490973",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 425,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[8]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[8]/div[1]/div[2]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"quote_slider_block_86e13c7a7fd9f65e2cf6f5202a9a93b5\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/div[@class=\"slick-list draggable\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[8]/div[1]/div[2]/div[1]/ul[1]",
+                "xpathWithDetails": "id(\"quote_slider_block_86e13c7a7fd9f65e2cf6f5202a9a93b5\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/ul[@class=\"slick-dots\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 1,
+              "numRows": 2
+            },
+            "x": 0,
+            "y": 5471,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-eap460-10490973"
+          },
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id-950914627",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 536,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[9]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 5956,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-eap460-box-id-950914627"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/",
+            "id": "box-id-950914379",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 638,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 0,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-xj0b7-box-id-950914379"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/",
+            "id": "box-id--1242253238",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 146,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 698,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-xj0b7-1242253238"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/",
+            "id": "box-id--1333541175",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 800,
+            "height": 125,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 240,
+            "y": 2767,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-xj0b7-1333541175"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/",
+            "id": "box-id-2031645704",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 52,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 3583,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-xj0b7-box-id-2031645704"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/",
+            "id": "box-id-2031645735",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 425,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"quote_slider_block_b9f208f9835d6fc2cea9396b16b369c7\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/div[@class=\"slick-list draggable\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]/div[1]/ul[1]",
+                "xpathWithDetails": "id(\"quote_slider_block_b9f208f9835d6fc2cea9396b16b369c7\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/ul[@class=\"slick-dots\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 1,
+              "numRows": 2
+            },
+            "x": 0,
+            "y": 3635,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-xj0b7-box-id-2031645735"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/",
+            "id": "box-id--1835821314",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 98,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 4181,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-xj0b7-1835821314"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/",
+            "id": "box-id-950914534",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 536,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 4459,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-xj0b7-box-id-950914534"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/audiences/",
+            "id": "box-id-950914379",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 706,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 0,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-dirnx-box-id-950914379"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/audiences/",
+            "id": "box-id--1333541175",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1256,
+            "height": 44,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 12,
+            "y": 1377,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-dirnx-1333541175"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/audiences/",
+            "id": "box-id-2031645704",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 52,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 2039,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-dirnx-box-id-2031645704"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/audiences/",
+            "id": "box-id-2031645735",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 645,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"quote_slider_block_469fb36632dc3b18747b8857689ee475\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/div[@class=\"slick-list draggable\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]/div[1]/ul[1]",
+                "xpathWithDetails": "id(\"quote_slider_block_469fb36632dc3b18747b8857689ee475\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/ul[@class=\"slick-dots\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 1,
+              "numRows": 2
+            },
+            "x": 0,
+            "y": 2091,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-dirnx-box-id-2031645735"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/audiences/",
+            "id": "box-id--1310908921",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1256,
+            "height": 44,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 12,
+            "y": 2876,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-dirnx-1310908921"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/audiences/",
+            "id": "box-id-651691519",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 98,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 3568,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-dirnx-box-id-651691519"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/audiences/",
+            "id": "box-id-651691550",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 209,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[2]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"partners_block_db21d4be004ccd6b629952ec22fec1e8\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[2]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"partners_block_db21d4be004ccd6b629952ec22fec1e8\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[2]/div[1]/div[3]",
+                "xpathWithDetails": "id(\"partners_block_db21d4be004ccd6b629952ec22fec1e8\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[2]/div[1]/div[4]",
+                "xpathWithDetails": "id(\"partners_block_db21d4be004ccd6b629952ec22fec1e8\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[2]/div[1]/div[5]",
+                "xpathWithDetails": "id(\"partners_block_db21d4be004ccd6b629952ec22fec1e8\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[2]/div[1]/div[6]",
+                "xpathWithDetails": "id(\"partners_block_db21d4be004ccd6b629952ec22fec1e8\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 6,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 3666,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-dirnx-box-id-651691550"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/audiences/",
+            "id": "box-id-950914565",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 536,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 3936,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-dirnx-box-id-950914565"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id-950914379",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 706,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 0,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-aopauq-box-id-950914379"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id--1752787415",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 52,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 1522,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-aopauq-1752787415"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id--1752787384",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 425,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"quote_slider_block_0f693346927bced6db2a7a8fb42a6a0f\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/div[@class=\"slick-list draggable\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[1]/ul[1]",
+                "xpathWithDetails": "id(\"quote_slider_block_0f693346927bced6db2a7a8fb42a6a0f\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/ul[@class=\"slick-dots\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 1,
+              "numRows": 2
+            },
+            "x": 0,
+            "y": 1574,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-aopauq-1752787384"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id-2031645704",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 146,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 2120,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-aopauq-box-id-2031645704"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id--1310908921",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 800,
+            "height": 125,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 240,
+            "y": 2822,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-aopauq-1310908921"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id-950914534",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 536,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 3658,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-aopauq-box-id-950914534"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/activations/",
+            "id": "box-id-950914379",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 672,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 0,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-eo2cpr-box-id-950914379"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/activations/",
+            "id": "box-id-950914441",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 545,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"quote_slider_block_19eb328eaad70afd6fd027e4922cd383\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/div[@class=\"slick-list draggable\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/ul[1]",
+                "xpathWithDetails": "id(\"quote_slider_block_19eb328eaad70afd6fd027e4922cd383\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/ul[@class=\"slick-dots\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 1,
+              "numRows": 2
+            },
+            "x": 0,
+            "y": 1449,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-eo2cpr-box-id-950914441"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/activations/",
+            "id": "box-id-950914472",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 536,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 1995,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-eo2cpr-box-id-950914472"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/",
+            "id": "box-id-950914379",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 670,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 0,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-im5cda-box-id-950914379"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/",
+            "id": "box-id--1242253238",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 146,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 730,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-im5cda-1242253238"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/",
+            "id": "box-id-950914441",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 443,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 1190,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-im5cda-box-id-950914441"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/",
+            "id": "box-id--1322225048",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 800,
+            "height": 95,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 240,
+            "y": 1693,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-im5cda-1322225048"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/",
+            "id": "box-id-950914503",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 610,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 2685,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-im5cda-box-id-950914503"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/",
+            "id": "box-id-1010577350",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 146,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 3355,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-im5cda-box-id-1010577350"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/",
+            "id": "box-id-950914565",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 536,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 4543,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-im5cda-box-id-950914565"
+          },
+          {
+            "url": "https://www.thechannelco.com/global-events-calendar/",
+            "id": "box-id-950914379",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 500,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 0,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-tivjpr-box-id-950914379"
+          },
+          {
+            "url": "https://www.thechannelco.com/global-events-calendar/",
+            "id": "box-id-950914410",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 84,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 500,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-tivjpr-box-id-950914410"
+          },
+          {
+            "url": "https://www.thechannelco.com/global-events-calendar/",
+            "id": "box-id-50689183",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 44,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 584,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-tivjpr-box-id-50689183"
+          },
+          {
+            "url": "https://www.thechannelco.com/global-events-calendar/",
+            "id": "box-id-50689214",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 60,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[2]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 636,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-tivjpr-box-id-50689214"
+          },
+          {
+            "url": "https://www.thechannelco.com/global-events-calendar/",
+            "id": "box-id--197540",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 853,
+            "height": 7875,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 799,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-tivjpr-197540"
+          },
+          {
+            "url": "https://www.thechannelco.com/global-events-calendar/",
+            "id": "box-id--197509",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 426,
+            "height": 7875,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[2]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 853,
+            "y": 799,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-tivjpr-197509"
+          },
+          {
+            "url": "https://www.thechannelco.com/brands/",
+            "id": "box-id-950914379",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 500,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 0,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-rdfi45-box-id-950914379"
+          },
+          {
+            "url": "https://www.thechannelco.com/brands/",
+            "id": "box-id--1242253238",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 144,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 560,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-rdfi45-1242253238"
+          },
+          {
+            "url": "https://www.thechannelco.com/brands/",
+            "id": "box-id-950914441",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 536,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 5142,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-rdfi45-box-id-950914441"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-950914379",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 500,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 0,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-950914379"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-50689183",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 40,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 500,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-50689183"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-50689214",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 88,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[2]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 540,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-50689214"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-50689245",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 90,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[3]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 636,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-50689245"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-50689276",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 120,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[4]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 742,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-50689276"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-50689307",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 30,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[5]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 878,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-50689307"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-50689369",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 44,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[7]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 951,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-50689369"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-50689400",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 60,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[8]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 1003,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-50689400"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id--1242253238",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 8,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 1099,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-1242253238"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-50689431",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 44,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[9]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 2982,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-50689431"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-1571363371",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 30,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/div[10]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 3034,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-1571363371"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id--1752787415",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 8,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 3100,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-1752787415"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-1521111527",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 16,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 4867,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-1521111527"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-1010577350",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 114,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 5403,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-1010577350"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id--1008825870",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1256,
+            "height": 24,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/h3[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 12,
+            "y": 6100,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-1008825870"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id--32267263",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1256,
+            "height": 30,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/p[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 12,
+            "y": 6132,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-32267263"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-898560209",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 800,
+            "height": 86,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 240,
+            "y": 6178,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-898560209"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-898560240",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 800,
+            "height": 86,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 240,
+            "y": 6264,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-898560240"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-898560271",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 800,
+            "height": 86,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 240,
+            "y": 6351,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-898560271"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-898560302",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 800,
+            "height": 86,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[4]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 240,
+            "y": 6438,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-898560302"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-898560333",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 800,
+            "height": 86,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[5]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 240,
+            "y": 6524,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-898560333"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-898560364",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 800,
+            "height": 86,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[6]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 240,
+            "y": 6611,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-898560364"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-898560395",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 800,
+            "height": 86,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 240,
+            "y": 6697,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-898560395"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-898560457",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 800,
+            "height": 86,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[9]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 240,
+            "y": 6784,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-898560457"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/mes/",
+            "id": "box-id-2085561432",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 800,
+            "height": 60,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[11]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 240,
+            "y": 6977,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-kiqowi-box-id-2085561432"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id-950914379",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 706,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 0,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-aopauq-box-id-950914379"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id--1752787415",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 52,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 1522,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-aopauq-1752787415"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id--1752787384",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 425,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"quote_slider_block_0f693346927bced6db2a7a8fb42a6a0f\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/div[@class=\"slick-list draggable\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[2]/div[1]/ul[1]",
+                "xpathWithDetails": "id(\"quote_slider_block_0f693346927bced6db2a7a8fb42a6a0f\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/ul[@class=\"slick-dots\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 1,
+              "numRows": 2
+            },
+            "x": 0,
+            "y": 1574,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-aopauq-1752787384"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id-2031645704",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 146,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 2120,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-aopauq-box-id-2031645704"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id--1310908921",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 800,
+            "height": 125,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 240,
+            "y": 2822,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-aopauq-1310908921"
+          },
+          {
+            "url": "https://www.thechannelco.com/solutions/strategic-growth/",
+            "id": "box-id-950914534",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 536,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 3658,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent-aopauq-box-id-950914534"
+          }
+        ]
+      },
+      {
+        "blockName": "cards",
+        "instances": [
+          {
+            "url": "https://www.thechannelco.com/",
+            "id": "box-id-500043204",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 894,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"brands_block_d203fed0e4c7af37475aaf3736b486cb\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"brands_block_d203fed0e4c7af37475aaf3736b486cb\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"brands_block_d203fed0e4c7af37475aaf3736b486cb\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[2]/div[4]",
+                "xpathWithDetails": "id(\"brands_block_d203fed0e4c7af37475aaf3736b486cb\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[2]/div[5]",
+                "xpathWithDetails": "id(\"brands_block_d203fed0e4c7af37475aaf3736b486cb\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[2]/div[6]",
+                "xpathWithDetails": "id(\"brands_block_d203fed0e4c7af37475aaf3736b486cb\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[2]/div[7]",
+                "xpathWithDetails": "id(\"brands_block_d203fed0e4c7af37475aaf3736b486cb\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[7]/div[1]/div[2]/div[8]",
+                "xpathWithDetails": "id(\"brands_block_d203fed0e4c7af37475aaf3736b486cb\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 4,
+              "numRows": 2
+            },
+            "x": 0,
+            "y": 4405,
+            "mapping": "cards",
+            "customBlockName": "aicards-eap460-box-id-500043204"
+          },
+          {
+            "url": "https://www.thechannelco.com/events/",
+            "id": "box-id-1010577381",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 982,
+            "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[1]",
+                "xpathWithDetails": "id(\"brands_block_b028514646b0e00ee5ef5a28714fc96b\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[2]",
+                "xpathWithDetails": "id(\"brands_block_b028514646b0e00ee5ef5a28714fc96b\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[3]",
+                "xpathWithDetails": "id(\"brands_block_b028514646b0e00ee5ef5a28714fc96b\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[4]",
+                "xpathWithDetails": "id(\"brands_block_b028514646b0e00ee5ef5a28714fc96b\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[5]",
+                "xpathWithDetails": "id(\"brands_block_b028514646b0e00ee5ef5a28714fc96b\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[6]",
+                "xpathWithDetails": "id(\"brands_block_b028514646b0e00ee5ef5a28714fc96b\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]/div[1]/div[2]/div[7]",
+                "xpathWithDetails": "id(\"brands_block_b028514646b0e00ee5ef5a28714fc96b\")/div[@class=\"container\"]/div[@class=\"row brands\"]/div[@class=\"col-lg-6 col-xl-3 brand mb-4\"]"
+              }
+            ],
+            "layout": {
+              "numCols": 4,
+              "numRows": 2
+            },
+            "x": 0,
+            "y": 3501,
+            "mapping": "cards",
+            "customBlockName": "aicards-im5cda-box-id-1010577381"
+          }
+        ]
+      }
+    ]
+  }
+}

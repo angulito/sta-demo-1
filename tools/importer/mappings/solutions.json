@@ -1,0 +1,274 @@
+{
+  "url": "https://www.thechannelco.com/solutions/",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[1]/header[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]\n  /html[1]/body[1]/div[1]/footer[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[2]",
+    "hash": -1079256736
+  },
+  "pageHeight": 5623,
+  "mapping": [
+    {
+      "id": 2,
+      "path": "/solutions/index",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-950914379",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 638,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 0,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-xj0b7-box-id-950914379"
+            },
+            {
+              "id": "box-id--1242253238",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 146,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 698,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-xj0b7-1242253238"
+            },
+            {
+              "id": "box-id--1242253207",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 1803,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"solutions_block_37275d89c107c7c33fc2cbcc5868bee6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"solutions_block_37275d89c107c7c33fc2cbcc5868bee6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[2]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"solutions_block_37275d89c107c7c33fc2cbcc5868bee6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[2]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"solutions_block_37275d89c107c7c33fc2cbcc5868bee6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[3]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"solutions_block_37275d89c107c7c33fc2cbcc5868bee6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[2]/div[1]/div[2]/div[3]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"solutions_block_37275d89c107c7c33fc2cbcc5868bee6\")/div[@class=\"container\"]/div[@class=\"row solution-items\"]/div[@class=\"col-md-12 solution mt-5 mb-5\"]/div[@class=\"row\"]/div[@class=\"col-md-6 mb-4\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 3
+              },
+              "x": 0,
+              "y": 844,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-xj0b7-1242253207"
+            },
+            {
+              "id": "box-id--1333541175",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 800,
+              "height": 125,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 240,
+              "y": 2767,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-xj0b7-1333541175"
+            },
+            {
+              "id": "box-id--1333541144",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 523,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"challenges_block_809d889c4560d89badd3e8fbc8b2cd58\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"challenges_block_809d889c4560d89badd3e8fbc8b2cd58\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "xpathWithDetails": "id(\"challenges_block_809d889c4560d89badd3e8fbc8b2cd58\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row challenges justify-content-center\"]/div[@class=\"col-md-6 col-lg-4 challenge mb-4\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 2940,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-xj0b7-1333541144"
+            },
+            {
+              "id": "box-id-2031645704",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 52,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 3583,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-xj0b7-box-id-2031645704"
+            },
+            {
+              "id": "box-id-2031645735",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 425,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"quote_slider_block_b9f208f9835d6fc2cea9396b16b369c7\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/div[@class=\"slick-list draggable\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[4]/div[1]/div[2]/div[1]/ul[1]",
+                  "xpathWithDetails": "id(\"quote_slider_block_b9f208f9835d6fc2cea9396b16b369c7\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"quotes-slider slick-initialized slick-slider slick-dotted\"]/ul[@class=\"slick-dots\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 1,
+                "numRows": 2
+              },
+              "x": 0,
+              "y": 3635,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-xj0b7-box-id-2031645735"
+            },
+            {
+              "id": "box-id--1835821314",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 98,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 4181,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-xj0b7-1835821314"
+            },
+            {
+              "id": "box-id--1835821283",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 120,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[4]",
+                  "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[5]",
+                  "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[6]",
+                  "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[7]",
+                  "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[8]",
+                  "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[5]/div[2]/div[1]/div[9]",
+                  "xpathWithDetails": "id(\"partners_block_5ff08a93642dd70b8a4bac25ae162a33\")/div[@class=\"partners marquee\"]/div[@class=\"marquee__group\"]/div[@class=\"partner mb-4\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 9,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 4279,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-xj0b7-1835821283"
+            },
+            {
+              "id": "box-id-950914534",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 536,
+              "xpath": "/html[1]/body[1]/div[1]/main[1]/article[1]/div[1]/section[6]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 4459,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-xj0b7-box-id-950914534"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "mappings": [
+    {
+      "path": "tools/importer/mappings/nav.json"
+    },
+    {
+      "path": "tools/importer/mappings/footer.json"
+    },
+    {
+      "path": "tools/importer/mappings/index.json"
+    },
+    {
+      "path": "tools/importer/mappings/solutions.json"
+    },
+    {
+      "path": "tools/importer/mappings/solutions/audiences.json"
+    },
+    {
+      "path": "tools/importer/mappings/solutions/strategic-growth.json"
+    },
+    {
+      "path": "tools/importer/mappings/solutions/activations.json"
+    },
+    {
+      "path": "tools/importer/mappings/events.json"
+    },
+    {
+      "path": "tools/importer/mappings/global-events-calendar.json"
+    },
+    {
+      "path": "tools/importer/mappings/brands.json"
+    },
+    {
+      "path": "tools/importer/mappings/events/mes.json"
+    },
+    {
+      "path": "tools/importer/mappings/solutions/strategic-growth.json"
+    }
+  ]
+}
