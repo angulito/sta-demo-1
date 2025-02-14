@@ -1,0 +1,157 @@
+
+.aicarousel1 {
+  position: relative;
+}
+
+.aicarousel1 .aicarousel1-slides-container {
+  position: relative;
+  height: auto; /* Ensure the height is set to auto */
+}
+
+.aicarousel1 .aicarousel1-slides,
+.aicarousel1 .aicarousel1-slide-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.aicarousel1 .aicarousel1-slides {
+  display: flex;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.aicarousel1 .aicarousel1-slides::-webkit-scrollbar {
+  display: none;
+}
+
+.aicarousel1 .aicarousel1-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items */
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-height: min(50vw, calc(100dvh - var(--header-height)));
+}
+
+.aicarousel1 .aicarousel1-slide .aicarousel1-slide-image picture {
+  position: absolute;
+  inset: 0;
+}
+
+.aicarousel1 .aicarousel1-slide .aicarousel1-slide-image picture > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.aicarousel1 .aicarousel1-slide .aicarousel1-slide-content {
+  z-index: 1;
+  margin: 5px; /* Further reduced margin */
+  padding: 20px; /* Further adjusted padding */
+  color: white;
+  background-color: rgba(19, 19, 19, 0.75);
+  position: relative;
+  width: auto; /* Adjusted width for better centering */
+  text-align: center; /* Center align text */
+  max-width: 400px; /* Further reduced maximum width */
+}
+
+.aicarousel1 .aicarousel1-slide-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 4px; /* Reduced gap */
+  padding: 4px;
+  background-color: transparent; /* Transparent background */
+  line-height: 0;
+  position: absolute;
+  bottom: 20px; /* Positioned at the bottom of the carousel */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.aicarousel1 .aicarousel1-slide-indicator button {
+  width: 8px; /* Adjusted size */
+  height: 8px; /* Adjusted size */
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5); /* Inactive state with transparency */
+  transition: background-color 0.2s;
+}
+
+.aicarousel1 .aicarousel1-slide-indicator button:disabled {
+  background-color: red; /* Active state */
+}
+
+.aicarousel1 .aicarousel1-navigation-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12px; /* Increased left position */
+  right: 12px; /* Increased right position */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.aicarousel1 .aicarousel1-navigation-buttons button {
+  position: relative;
+  width: 30px; /* Adjusted size */
+  height: 30px; /* Adjusted size */
+  margin: 0;
+  border-radius: 50%;
+  padding: 0;
+  background-color: rgba(19, 19, 19, 0.1); /* Even lighter background */
+  transition: background-color 0.2s;
+}
+
+.aicarousel1 .aicarousel1-navigation-buttons button:hover,
+.aicarousel1 .aicarousel1-navigation-buttons button:focus-visible {
+  background-color: rgba(19, 19, 19, 0.3); /* Lighter hover background */
+}
+
+.aicarousel1 .aicarousel1-navigation-buttons button::after {
+  display: block;
+  content: '';
+  border: 2px solid;
+  border-bottom: 0;
+  border-left: 0;
+  height: 10px; /* Adjusted size */
+  width: 10px; /* Adjusted size */
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 2px);
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.aicarousel1 .aicarousel1-navigation-buttons button.slide-next::after {
+  transform: translate(-50%, -50%) rotate(45deg);
+  left: calc(50% - 2px);
+}
+
+.aicarousel1 .aicarousel1-slide .aicarousel1-slide-content .button {
+  background-color: red; /* Change button background to red */
+  padding: 10px 20px; /* Adjusted padding for better fit */
+}
+
+@media (width >= 600px) {
+  .aicarousel1 .aicarousel1-navigation-buttons {
+    left: 20px; /* Adjusted for larger screens */
+    right: 20px; /* Adjusted for larger screens */
+  }
+
+  .aicarousel1 .aicarousel1-slide .aicarousel1-slide-content {
+    --slide-content-width: calc((100% - 184px) / 2);
+    margin: 15px; /* Further adjusted margin */
+  }
+
+  .aicarousel1 .aicarousel1-slide .aicarousel1-slide-content[data-align='justify'] {
+    --slide-content-width: auto;
+  }
+}
