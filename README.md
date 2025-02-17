@@ -2,7 +2,7 @@
 This is a project created by the ESaaS Demo Tool. It is based on [https://github.com/adobe/aem-boilerplate](https://github.com/adobe/aem-boilerplate).
 
 ## Environments
-- Preview: https://main--sta-demo-1-01--angulito.aem.page/
+- Preview: https://main--sta-demo-1--angulito.aem.page/
 - Live: https://main--sta-demo-1--angulito.aem.live/
 
 ## Installation
