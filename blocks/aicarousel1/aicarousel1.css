@@ -54,7 +54,7 @@
   margin: 5px; /* Further reduced margin */
   padding: 20px; /* Further adjusted padding */
   color: white;
-  background-color: rgba(19, 19, 19, 0.75);
+  background-color: rgb(19 19 19 / 75%);
   position: relative;
   width: auto; /* Adjusted width for better centering */
   text-align: center; /* Center align text */
@@ -80,12 +80,8 @@
   margin: 0;
   padding: 0;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5); /* Inactive state with transparency */
+  background-color: rgb(255 255 255 / 50%); /* Inactive state with transparency */
   transition: background-color 0.2s;
-}
-
-.aicarousel1 .aicarousel1-slide-indicator button:disabled {
-  background-color: red; /* Active state */
 }
 
 .aicarousel1 .aicarousel1-navigation-buttons {
@@ -107,13 +103,17 @@
   margin: 0;
   border-radius: 50%;
   padding: 0;
-  background-color: rgba(19, 19, 19, 0.1); /* Even lighter background */
+  background-color: rgb(19 19 19 / 10%); /* Even lighter background */
   transition: background-color 0.2s;
+}
+
+.aicarousel1 .aicarousel1-slide-indicator button:disabled {
+  background-color: red; /* Active state */
 }
 
 .aicarousel1 .aicarousel1-navigation-buttons button:hover,
 .aicarousel1 .aicarousel1-navigation-buttons button:focus-visible {
-  background-color: rgba(19, 19, 19, 0.3); /* Lighter hover background */
+  background-color: rgb(19 19 19 / 30%); /* Lighter hover background */
 }
 
 .aicarousel1 .aicarousel1-navigation-buttons button::after {
@@ -148,6 +148,7 @@
 
   .aicarousel1 .aicarousel1-slide .aicarousel1-slide-content {
     --slide-content-width: calc((100% - 184px) / 2);
+
     margin: 15px; /* Further adjusted margin */
   }
 
