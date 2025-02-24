@@ -11,7 +11,7 @@
             "y": 106,
             "width": 1581,
             "height": 889,
-            "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+            "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
             "layout": {
               "numCols": 0,
               "numRows": 0
