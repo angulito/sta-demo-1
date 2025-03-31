@@ -1,7 +1,7 @@
 {
-  "url": "https://www.valtra.com/",
+  "url": "https://www.qantasnewsroom.com.au",
   "sanitizedPath": "/index",
-  "autoDetect": false,
+  "autoDetect": true,
   "mapping": [
     {
       "id": "1",
@@ -11,17 +11,27 @@
           "id": "1-1",
           "blocks": [
             {
-              "id": "box-id--596431005",
+              "id": "box-id--1102402271",
+              "color": "rgba(0, 0, 255, 1)",
+              "width": 1239,
+              "height": 142,
+              "xpath": "/html[1]/body[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"_qantas_logo_search\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"_qantas_menu\")"
+                }
+              ],
+              "layout": {
+                "numCols": 1,
+                "numRows": 2
+              },
               "x": 0,
               "y": 0,
-              "width": 1581,
-              "height": 106,
-              "xpath": "/html[1]/body[1]/div[1]/div[1]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgb(148, 0, 211)",
               "mapping": "header",
               "customBlockName": ""
             }
@@ -36,629 +46,7 @@
       "sections": [
         {
           "id": "2-1",
-          "blocks": [
-            {
-              "id": "box-id-634358468",
-              "x": 0,
-              "y": 106,
-              "width": 1581,
-              "height": 889,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "carousel",
-              "customBlockName": "aicarousel1"
-            },
-            {
-              "id": "box-id-634358499",
-              "x": 0,
-              "y": 995,
-              "width": 1581,
-              "height": 167,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
-              "layout": {
-                "numCols": 4,
-                "numRows": 1
-              },
-              "childrenXpaths": [
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"promonavcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"promonav js-promonav swiper-container\"]/div[@class=\"promonav__slider swiper-wrapper\"]/div[@class=\"promonav__slide swiper-slide\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"promonavcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"promonav js-promonav swiper-container\"]/div[@class=\"promonav__slider swiper-wrapper\"]/div[@class=\"promonav__slide swiper-slide\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"promonavcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"promonav js-promonav swiper-container\"]/div[@class=\"promonav__slider swiper-wrapper\"]/div[@class=\"promonav__slide swiper-slide\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"promonavcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"promonav js-promonav swiper-container\"]/div[@class=\"promonav__slider swiper-wrapper\"]/div[@class=\"promonav__slide swiper-slide\"]"
-                }
-              ],
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "columns",
-              "customBlockName": "aicolumns1"
-            },
-            {
-              "id": "box-id-634358530",
-              "x": 0,
-              "y": 1162,
-              "width": 1581,
-              "height": 156,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
-              "layout": {
-                "numCols": 3,
-                "numRows": 1
-              },
-              "childrenXpaths": [
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"promonavcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"promonav js-promonav swiper-container\"]/div[@class=\"promonav__slider swiper-wrapper\"]/div[@class=\"promonav__slide swiper-slide\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"promonavcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"promonav js-promonav swiper-container\"]/div[@class=\"promonav__slider swiper-wrapper\"]/div[@class=\"promonav__slide swiper-slide\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"promonavcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"promonav js-promonav swiper-container\"]/div[@class=\"promonav__slider swiper-wrapper\"]/div[@class=\"promonav__slide swiper-slide\"]"
-                }
-              ],
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "columns",
-              "customBlockName": "aicolumns1"
-            },
-            {
-              "id": "box-id-634358561",
-              "x": 0,
-              "y": 1319,
-              "width": 1581,
-              "height": 195,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "defaultContent",
-              "customBlockName": "header-sep"
-            },
-            {
-              "id": "box-id-634358592",
-              "x": 0,
-              "y": 1514,
-              "width": 1581,
-              "height": 494,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[5]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "hero",
-              "customBlockName": "aihero1"
-            },
-            {
-              "id": "box-id-634358623",
-              "x": 0,
-              "y": 2008,
-              "width": 1581,
-              "height": 296,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[6]",
-              "layout": {
-                "numCols": 2,
-                "numRows": 1
-              },
-              "childrenXpaths": [
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"liftblockcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"liftblock liftblock--third liftblock--right\"]/div[@class=\"liftblock__wrap\"]/div[@class=\"liftblock__text\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"liftblockcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"liftblock liftblock--third liftblock--right\"]/div[@class=\"liftblock__wrap\"]/div[@class=\"liftblock__img\"]"
-                }
-              ],
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "columns",
-              "customBlockName": "aicolumns2"
-            },
-            {
-              "id": "box-id--1170278009",
-              "x": 220,
-              "y": 2375,
-              "width": 1140,
-              "height": 316,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]",
-              "layout": {
-                "numCols": 2,
-                "numRows": 1
-              },
-              "childrenXpaths": [
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"featurecontainerblockcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"feature-ctn light-theme\"]/div[@class=\"feature-ctn__wrap\"]/div[@class=\"feature-ctn__header\"]/div[@class=\"feature-ctn__text\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[2]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"featurecontainerblockcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"feature-ctn light-theme\"]/div[@class=\"feature-ctn__wrap\"]/div[@class=\"feature-ctn__header\"]/div[@class=\"feature-ctn__cta-wrap\"]"
-                }
-              ],
-              "color": "rgba(0, 0, 255, 0.3)",
-              "mapping": "columns",
-              "customBlockName": "aicolumns2"
-            },
-            {
-              "id": "box-id--1170277978",
-              "x": 220,
-              "y": 2691,
-              "width": 1140,
-              "height": 514,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]/div[2]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 0, 255, 0.3)",
-              "mapping": "defaultContent",
-              "customBlockName": ""
-            },
-            {
-              "id": "box-id-634358685",
-              "x": 0,
-              "y": 3275,
-              "width": 1581,
-              "height": 668,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[8]",
-              "layout": {
-                "numCols": 2,
-                "numRows": 2
-              },
-              "childrenXpaths": [
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"featurecontainerblockcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"feature-ctn light-theme\"]/div[@class=\"feature-ctn__wrap\"]/div[@class=\"feature-ctn__header\"]/div[@class=\"feature-ctn__text\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[2]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"featurecontainerblockcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"feature-ctn light-theme\"]/div[@class=\"feature-ctn__wrap\"]/div[@class=\"feature-ctn__header\"]/div[@class=\"feature-ctn__cta-wrap\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"featurecontainerblockcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"feature-ctn light-theme\"]/div[@class=\"feature-ctn__wrap\"]/div[@class=\"feature-ctn__content\"]/div[@class=\"liftblockcomp section\"]/div[@class=\"liftblock liftblock--half liftblock--left liftblock--video\"]/div[@class=\"liftblock__wrap\"]/div[@class=\"liftblock__img\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"featurecontainerblockcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"feature-ctn light-theme\"]/div[@class=\"feature-ctn__wrap\"]/div[@class=\"feature-ctn__content\"]/div[@class=\"liftblockcomp section\"]/div[@class=\"liftblock liftblock--half liftblock--left liftblock--video\"]/div[@class=\"liftblock__wrap\"]/div[@class=\"liftblock__text\"]"
-                }
-              ],
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "columns",
-              "customBlockName": "aicolumns3"
-            }
-          ],
-          "settings": {}
-        },
-        {
-          "id": "2-2",
-          "blocks": [
-            {
-              "id": "box-id-634358716",
-              "x": 0,
-              "y": 3943,
-              "width": 1581,
-              "height": 278,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[9]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "defaultContent",
-              "customBlockName": "aitexthighlight"
-            }
-          ],
-          "settings": {
-            "section-metadata-style": "highlight"
-          }
-        },
-        {
-          "id": "2-3",
-          "blocks": [
-            {
-              "id": "box-id--1809725274",
-              "x": 0,
-              "y": 4221,
-              "width": 1581,
-              "height": 147,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[10]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "defaultContent",
-              "customBlockName": "header-sep"
-            },
-            {
-              "id": "box-id--1809725243",
-              "x": 0,
-              "y": 4369,
-              "width": 1581,
-              "height": 950,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[11]",
-              "layout": {
-                "numCols": 3,
-                "numRows": 2
-              },
-              "childrenXpaths": [
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/ul[1]/li[1]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"whatsnewcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"whats-new-grid blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/ul[1]/li[2]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"whatsnewcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"whats-new-grid blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/ul[1]/li[3]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"whatsnewcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"whats-new-grid blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/ul[1]/li[4]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"whatsnewcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"whats-new-grid blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/ul[1]/li[5]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"whatsnewcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"whats-new-grid blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/ul[1]/li[6]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"whatsnewcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"whats-new-grid blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                }
-              ],
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "cards",
-              "customBlockName": "aicards1"
-            },
-            {
-              "id": "box-id--1809725212",
-              "x": 0,
-              "y": 5319,
-              "width": 1581,
-              "height": 147,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[12]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "defaultContent",
-              "customBlockName": "header-sep"
-            },
-            {
-              "id": "box-id--1809725181",
-              "x": 0,
-              "y": 5467,
-              "width": 1581,
-              "height": 1541,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[13]",
-              "layout": {
-                "numCols": 3,
-                "numRows": 3
-              },
-              "childrenXpaths": [
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[13]/div[1]/ul[1]/li[1]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"bloggrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[13]/div[1]/ul[1]/li[2]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"bloggrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[13]/div[1]/ul[1]/li[3]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"bloggrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[13]/div[1]/ul[1]/li[4]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"bloggrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[13]/div[1]/ul[1]/li[5]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"bloggrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[13]/div[1]/ul[1]/li[6]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"bloggrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[13]/div[1]/ul[1]/li[7]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"bloggrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[13]/div[1]/ul[1]/li[8]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"bloggrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[13]/div[1]/ul[1]/li[9]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"bloggrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"blog-grid\"]/ul[@class=\"blog-grid__list\"]/li[@class=\"blog-grid__list-item\"]"
-                }
-              ],
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "cards",
-              "customBlockName": "aicards2"
-            },
-            {
-              "id": "box-id--1809725150",
-              "x": 0,
-              "y": 7008,
-              "width": 1581,
-              "height": 147,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[14]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "defaultContent",
-              "customBlockName": "header-sep"
-            },
-            {
-              "id": "box-id--1809725119",
-              "x": 0,
-              "y": 7155,
-              "width": 1581,
-              "height": 222,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[15]",
-              "layout": {
-                "numCols": 4,
-                "numRows": 1
-              },
-              "childrenXpaths": [
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[15]/div[1]/a[1]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"gallerystripecomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"gallerystripe\"]/a[@class=\"gallerystripe__item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[15]/div[1]/a[2]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"gallerystripecomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"gallerystripe\"]/a[@class=\"gallerystripe__item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[15]/div[1]/a[3]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"gallerystripecomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"gallerystripe\"]/a[@class=\"gallerystripe__item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[15]/div[1]/a[4]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"gallerystripecomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"gallerystripe\"]/a[@class=\"gallerystripe__item\"]"
-                }
-              ],
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "cards",
-              "customBlockName": "aicards3"
-            },
-            {
-              "id": "box-id--1809725088",
-              "x": 0,
-              "y": 7378,
-              "width": 1581,
-              "height": 195,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[16]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "defaultContent",
-              "customBlockName": "header-sep"
-            },
-            {
-              "id": "box-id--1809725057",
-              "x": 0,
-              "y": 7573,
-              "width": 1581,
-              "height": 296,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[17]",
-              "layout": {
-                "numCols": 3,
-                "numRows": 1
-              },
-              "childrenXpaths": [
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[17]/div[1]/a[1]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"gallerystripecomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"gallerystripe\"]/a[@class=\"gallerystripe__item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[17]/div[1]/a[2]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"gallerystripecomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"gallerystripe\"]/a[@class=\"gallerystripe__item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[17]/div[1]/a[3]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"gallerystripecomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"gallerystripe\"]/a[@class=\"gallerystripe__item\"]"
-                }
-              ],
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "cards",
-              "customBlockName": "aicards3"
-            },
-            {
-              "id": "box-id--1809724995",
-              "x": 0,
-              "y": 7901,
-              "width": 1581,
-              "height": 790,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[19]",
-              "layout": {
-                "numCols": 2,
-                "numRows": 1
-              },
-              "childrenXpaths": [
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[2]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"liftblockcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"liftblock liftblock--half liftblock--right\"]/div[@class=\"liftblock__wrap\"]/div[@class=\"liftblock__text\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"liftblockcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"liftblock liftblock--half liftblock--right\"]/div[@class=\"liftblock__wrap\"]/div[@class=\"liftblock__img\"]"
-                }
-              ],
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "columns",
-              "customBlockName": "aicolumns3"
-            },
-            {
-              "id": "box-id--1809724313",
-              "x": 0,
-              "y": 8692,
-              "width": 1581,
-              "height": 791,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[20]",
-              "layout": {
-                "numCols": 2,
-                "numRows": 1
-              },
-              "childrenXpaths": [
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"liftblockcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"liftblock liftblock--half liftblock--left liftblock--video\"]/div[@class=\"liftblock__wrap\"]/div[@class=\"liftblock__img\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[2]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"liftblockcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"liftblock liftblock--half liftblock--left liftblock--video\"]/div[@class=\"liftblock__wrap\"]/div[@class=\"liftblock__text\"]"
-                }
-              ],
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "columns",
-              "customBlockName": "aicolumns3"
-            },
-            {
-              "id": "box-id--1809724282",
-              "x": 0,
-              "y": 9483,
-              "width": 1581,
-              "height": 147,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[21]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "defaultContent",
-              "customBlockName": "header-sep"
-            },
-            {
-              "id": "box-id--1809724251",
-              "x": 0,
-              "y": 9631,
-              "width": 1581,
-              "height": 296,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[22]",
-              "layout": {
-                "numCols": 3,
-                "numRows": 1
-              },
-              "childrenXpaths": [
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[22]/div[1]/a[1]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"gallerystripecomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"gallerystripe\"]/a[@class=\"gallerystripe__item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[22]/div[1]/a[2]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"gallerystripecomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"gallerystripe\"]/a[@class=\"gallerystripe__item\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[22]/div[1]/a[3]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"gallerystripecomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"gallerystripe\"]/a[@class=\"gallerystripe__item\"]"
-                }
-              ],
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "columns",
-              "customBlockName": "aicards3"
-            }
-          ],
-          "settings": {}
-        },
-        {
-          "id": "2-4",
-          "blocks": [
-            {
-              "id": "box-id--1809724220",
-              "x": 0,
-              "y": 9927,
-              "width": 1581,
-              "height": 278,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[23]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "defaultContent",
-              "customBlockName": "aitexthighlight"
-            }
-          ],
-          "settings": {
-            "section-metadata-style": "highlight"
-          }
-        },
-        {
-          "id": "2-5",
-          "blocks": [
-            {
-              "id": "box-id--1809724189",
-              "x": 0,
-              "y": 10205,
-              "width": 1581,
-              "height": 195,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[24]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "defaultContent",
-              "customBlockName": "header-sep"
-            },
-            {
-              "id": "box-id--1809724158",
-              "x": 0,
-              "y": 10400,
-              "width": 1581,
-              "height": 392,
-              "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[25]",
-              "layout": {
-                "numCols": 4,
-                "numRows": 1
-              },
-              "childrenXpaths": [
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[25]/div[1]/div[1]/div[1]/section[1]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"colctrlcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"colctrl section\"]/div[@class=\"container-fluid\"]/div[@class=\"row\"]/section[@class=\"col-sm-3 desktop\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[25]/div[1]/div[1]/div[1]/section[2]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"colctrlcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"colctrl section\"]/div[@class=\"container-fluid\"]/div[@class=\"row\"]/section[@class=\"col-sm-3 desktop\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[25]/div[1]/div[1]/div[1]/section[3]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"colctrlcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"colctrl section\"]/div[@class=\"container-fluid\"]/div[@class=\"row\"]/section[@class=\"col-sm-3 desktop\"]"
-                },
-                {
-                  "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[25]/div[1]/div[1]/div[1]/section[4]",
-                  "xpathWithDetails": "id(\"main\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"responsivegrid aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"colctrlcomp aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"colctrl section\"]/div[@class=\"container-fluid\"]/div[@class=\"row\"]/section[@class=\"col-sm-3 desktop\"]"
-                }
-              ],
-              "color": "rgba(0, 0, 255, 0.4)",
-              "mapping": "columns",
-              "customBlockName": "aicolumns4"
-            }
-          ],
+          "blocks": [],
           "settings": {}
         }
       ]
@@ -671,82 +59,37 @@
           "id": "3-1",
           "blocks": [
             {
-              "id": "box-id-1932770021",
-              "x": 0,
-              "y": 10792,
-              "width": 1581,
-              "height": 44,
-              "xpath": "/html[1]/body[1]/div[1]/div[4]/div[1]",
+              "id": "box-id--1102402240",
+              "x": 19,
+              "y": 157,
+              "width": 1200,
+              "height": 2036,
+              "xpath": "/html[1]/body[1]/div[3]",
               "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 255, 0, 0.4)",
-              "mapping": "defaultContent",
-              "customBlockName": "aitext2"
-            },
-            {
-              "id": "box-id--1177722897",
-              "x": 0,
-              "y": 10868,
-              "width": 1581,
-              "height": 243,
-              "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]/footer[1]/div[1]/nav[1]",
-              "layout": {
-                "numCols": 4,
-                "numRows": 1
+                "numCols": 1,
+                "numRows": 3
               },
               "childrenXpaths": [
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]/footer[1]/div[1]/nav[1]/div[1]",
-                  "xpathWithDetails": "id(\"page\")/div[@class=\"valtra-container template-valtra-home-page\"]/div[@class=\"vfootercomp section\"]/footer[@class=\"vfooter\"]/div[@class=\"site-content-wrap\"]/nav[@class=\"vfooter__nav\"]/div[@class=\"vfooter__nav-column vfooter__nav-boilerplate\"]"
+                  "xpath": "/html[1]/body[1]/div[3]/header[1]",
+                  "xpathWithDetails": "/html[@class=\"wf-europa-n7-active wf-europa-n4-active wf-europa-n3-active wf-active\"]/body[@class=\"home page-template-default page page-id-3700\"]/div[@class=\"container\"]"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]/footer[1]/div[1]/nav[1]/div[2]",
-                  "xpathWithDetails": "id(\"page\")/div[@class=\"valtra-container template-valtra-home-page\"]/div[@class=\"vfootercomp section\"]/footer[@class=\"vfooter\"]/div[@class=\"site-content-wrap\"]/nav[@class=\"vfooter__nav\"]/div[@class=\"vfooter__nav-column\"]"
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"main\")"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]/footer[1]/div[1]/nav[1]/div[3]",
-                  "xpathWithDetails": "id(\"page\")/div[@class=\"valtra-container template-valtra-home-page\"]/div[@class=\"vfootercomp section\"]/footer[@class=\"vfooter\"]/div[@class=\"site-content-wrap\"]/nav[@class=\"vfooter__nav\"]/div[@class=\"vfooter__nav-column\"]"
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"sidebar\")"
                 },
                 {
-                  "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]/footer[1]/div[1]/nav[1]/div[4]",
-                  "xpathWithDetails": "id(\"page\")/div[@class=\"valtra-container template-valtra-home-page\"]/div[@class=\"vfootercomp section\"]/footer[@class=\"vfooter\"]/div[@class=\"site-content-wrap\"]/nav[@class=\"vfooter__nav\"]/div[@class=\"vfooter__nav-column\"]"
+                  "xpath": "/html[1]/body[1]/footer[1]/div[1]",
+                  "xpathWithDetails": "/html[@class=\"wf-europa-n7-active wf-europa-n4-active wf-europa-n3-active wf-active\"]/body[@class=\"home page-template-default page page-id-3700\"]/div[@class=\"footer-wrap\"]"
                 }
               ],
-              "color": "rgba(0, 255, 0, 0.3)",
-              "mapping": "columns",
-              "customBlockName": "aicolumns5"
-            },
-            {
-              "id": "box-id--1456626239",
-              "x": 0,
-              "y": 11128,
-              "width": 1581,
-              "height": 88,
-              "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]/footer[1]/div[1]/div[1]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 255, 0, 0.3)",
+              "color": "rgb(0, 0, 255)",
               "mapping": "defaultContent",
-              "customBlockName": "aitext3"
-            },
-            {
-              "id": "box-id--1456626208",
-              "x": 0,
-              "y": 11216,
-              "width": 1581,
-              "height": 125,
-              "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]/footer[1]/div[1]/div[2]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(0, 255, 0, 0.3)",
-              "mapping": "defaultContent",
-              "customBlockName": "aitext3"
+              "customBlockName": ""
             }
           ],
           "settings": {}
