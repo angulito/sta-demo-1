@@ -1,7 +1,16 @@
 
 @font-face {
-  font-family: VALTRAAvenyT;
-  src: url('../fonts/valtraavenyt-400-normal.woff2') format('woff2');
+  font-family: europa;
+  src: url('../fonts/europa-700-normal.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: europa;
+  src: url('../fonts/europa-400-normal.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -9,8 +18,17 @@
 }
 
 @font-face {
-  font-family: VALTRAAvenyTExtraBold;
-  src: url('../fonts/valtraavenytextrabold-400-normal.woff2') format('woff2');
+  font-family: europa;
+  src: url('../fonts/europa-300-normal.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: FontAwesome;
+  src: url('../fonts/fontawesome-400-normal.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -18,9 +36,18 @@
 }
 
 @font-face {
-  font-family: "VALTRAAvenyT-2020-Regular";
-  src: url('../fonts/valtraavenyt-2020-regular-normal-normal.woff') format('woff');
-  font-weight: normal;
+  font-family: CiutadellaRegular;
+  src: url('../fonts/CiutadellaRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: CiutadellaMedium;
+  src: url('../fonts/CiutadellaMedium.woff2') format('woff2');
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
   unicode-range: U+0-10FFFF;
