@@ -1,74 +1,84 @@
+
 .cards-wrapper {
-  display: flex;
-  flex-direction: column; /* Stack top-level elements vertically */
-  gap: 40px; /* Space between the top section and the card grid */
+  display: flex; /* Use flexbox for the main container */
+  flex-wrap: wrap; /* Allow cards to wrap into rows */
+  justify-content: center; /* Center-align the rows */
+  gap: 16px; /* Reduce spacing for tighter layout */
 }
 
 .cards-wrapper > .cards.block {
-  display: flex; /* Use flexbox for the overall card container */
-  flex-flow: row wrap; /* Allow cards to wrap into multiple rows */ /* Ensure cards are side-by-side */
-  justify-content: center; /* Center align all cards */
-  gap: 16px; /* Reduce spacing between cards to match original layout */
-  padding: 0;
-  margin: 0;
+  display: flex; /* Use flexbox for the cards container */
+  flex-wrap: wrap; /* Ensure cards wrap properly */
+  gap: 16px; /* Reduce spacing between cards */
 }
 
 .cards-wrapper > .cards.block > ul {
-  display: flex; /* Ensure the list acts as a flex container */
-  flex-flow: row wrap; /* Wrap the cards into multiple rows */ /* Ensure cards are side-by-side */
-  justify-content: center; /* Center align the cards horizontally */
-  gap: 16px; /* Reduce spacing between cards to match original layout */
-  padding: 0;
-  margin: 0;
+  display: flex; /* Use flexbox for the list */
+  flex-wrap: wrap; /* Allow list items to wrap into rows */
+  justify-content: center; /* Center-align the blocks */
+  gap: 16px; /* Tighter spacing for consistency */
   list-style: none; /* Remove default list styling */
+  margin: 0;
+  padding: 0;
 }
 
 .cards-wrapper > .cards.block > ul > li {
-  display: flex; /* Make each card a flex container */
-  flex-direction: column; /* Stack image and red card body vertically */
-  flex: 0 1 calc(33.333% - 16px); /* Fixed card width for three columns */
-  box-sizing: border-box; /* Ensure consistent sizing */
-  background-color: white; /* Add a white background for cards */
-  overflow: hidden; /* Prevent overflow */
-  border-radius: 0; /* Remove rounded corners */
+  display: flex; /* Use flexbox for individual blocks */
+  flex-direction: column; /* Stack elements vertically */
+  width: calc(33.333% - 16px); /* Maintain three blocks per row */
+  box-sizing: border-box; /* Prevent overflow */
   margin: 0; /* Remove unnecessary margins */
 }
 
+.cards-wrapper > .cards.block > ul > li > div {
+  display: flex; /* Use flexbox for inner elements */
+  flex-direction: row; /* Align image and text sections side-by-side */
+  align-items: center; /* Vertically center align content */
+  gap: 16px; /* Add spacing between image and text */
+  width: 100%; /* Ensure elements span the block width */
+}
+
 .cards-wrapper > .cards.block > ul > li > .cards-card-image {
-  width: 100%;
-  display: block; /* Add this to remove inline element spacing */
-  line-height: 0; /* Add this to remove any line-height gaps */
+  flex: 0 0 60%; /* Restrict image width for balance */
 }
 
-.cards-wrapper > .cards.block > ul > li img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  margin: 0;
-  display: block; /* Add this to remove inline element spacing */
+.cards-wrapper > .cards.block > ul > li > .cards-card-image img {
+  width: 100%; /* Ensure image uses full allocated width */
+  height: auto; /* Maintain aspect ratio */
 }
 
-.cards-wrapper>.cards.block>ul>li>.cards-card-body {
-  margin: 0;
-  background-color: #eb000a;
-  color: #fff;
-  padding: 10px;
-  font-size: 0.9rem;
-  text-transform: uppercase;
+.cards-wrapper > .cards.block > ul > li > .cards-card-body {
+  flex: 1; /* Allow text sections to grow dynamically */
+  text-align: left; /* Left-align text for structure */
 }
 
-.cards-wrapper>.cards.block>ul>li>.cards-card-body p {
-  margin: 0.3rem;
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type {
+  background-color: #eb000a; /* Red background for metadata */
+  color: white; /* White text for readability */
+  padding: 8px; /* Compact padding */
+  font-size: 0.8rem; /* Adjust font size */
 }
 
-@media (width <= 768px) {
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type {
+  background-color: black; /* Black background for description */
+  color: white; /* White text for readability */
+  padding: 8px; /* Compact padding */
+  font-size: 0.9rem; /* Adjust font size */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Ensure links are white */
+}
+
+@media (max-width: 768px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 calc(50% - 16px);
+    width: calc(50% - 16px); /* Two blocks per row for smaller screens */
   }
 }
 
-@media (width <= 580px) {
+@media (max-width: 580px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 100%;
+    width: 100%; /* One block per row for smaller screens */
   }
 }
