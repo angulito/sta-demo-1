@@ -2,86 +2,83 @@
 .cards-wrapper {
   display: flex; /* Use flexbox for the main container */
   flex-wrap: wrap; /* Allow cards to wrap into rows */
-  justify-content: space-between; /* Distribute cards evenly across rows */
-  gap: 16px; /* Tighten spacing between cards */
-  padding: 0;
-  margin: 0;
+  justify-content: center; /* Center-align the rows */
+  gap: 16px; /* Reduce spacing for tighter layout */
 }
 
 .cards-wrapper > .cards.block {
-  display: flex; /* Use flexbox for the grid */
-  flex-wrap: wrap; /* Enable wrapping for rows */
-  justify-content: space-between; /* Ensure even spacing between cards */
-  gap: 16px; /* Add consistent spacing */
+  display: flex; /* Use flexbox for the cards container */
+  flex-wrap: wrap; /* Ensure cards wrap properly */
+  gap: 16px; /* Reduce spacing between cards */
 }
 
 .cards-wrapper > .cards.block > ul {
-  display: flex; /* Make the list a flex container */
-  flex-wrap: wrap; /* Arrange cards in rows */
-  justify-content: space-between; /* Space cards evenly */
-  gap: 16px; /* Adjust spacing for a tighter grid */
-  padding: 0;
-  margin: 0;
+  display: flex; /* Use flexbox for the list */
+  flex-wrap: wrap; /* Allow list items to wrap into rows */
+  justify-content: center; /* Center-align the blocks */
+  gap: 16px; /* Tighter spacing for consistency */
   list-style: none; /* Remove default list styling */
+  margin: 0;
+  padding: 0;
 }
 
 .cards-wrapper > .cards.block > ul > li {
-  display: flex; /* Treat each card as a flex container */
-  flex-direction: column; /* Arrange content vertically */
-  flex: 0 1 calc(33.333% - 16px); /* Ensure three cards per row */
-  box-sizing: border-box; /* Ensure consistent sizing */
-  margin: 0; /* Remove unnecessary margin */
+  display: flex; /* Use flexbox for individual blocks */
+  flex-direction: column; /* Stack elements vertically */
+  width: calc(33.333% - 16px); /* Maintain three blocks per row */
+  box-sizing: border-box; /* Prevent overflow */
+  margin: 0; /* Remove unnecessary margins */
+}
+
+.cards-wrapper > .cards.block > ul > li > div {
+  display: flex; /* Use flexbox for inner elements */
+  flex-direction: row; /* Align image and text sections side-by-side */
+  align-items: center; /* Vertically center align content */
+  gap: 16px; /* Add spacing between image and text */
+  width: 100%; /* Ensure elements span the block width */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-image {
-  width: 100%; /* Ensure the image section spans full width */
+  flex: 0 0 60%; /* Restrict image width for balance */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-image img {
-  display: block; /* Ensure images are block-level elements */
-  width: 100%; /* Make images span full width */
+  width: 100%; /* Ensure image uses full allocated width */
   height: auto; /* Maintain aspect ratio */
-  object-fit: cover; /* Ensure images fit the container */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body {
+  flex: 1; /* Allow text sections to grow dynamically */
+  text-align: left; /* Left-align text for structure */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type {
   background-color: #eb000a; /* Red background for metadata */
-  color: white; /* White text for contrast */
-  text-align: center; /* Center-align the text */
-  padding: 10px; /* Add consistent spacing */
-  font-size: 0.9rem; /* Adjust font size */
-  text-transform: uppercase; /* Make metadata text uppercase */
-  width: 100%; /* Ensure metadata spans the full width */
-  box-sizing: border-box; /* Prevent overflow */
-}
-
-.cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type p {
-  margin: 0; /* Remove unnecessary spacing */
+  color: white; /* White text for readability */
+  padding: 8px; /* Compact padding */
+  font-size: 0.8rem; /* Adjust font size */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type {
-  background-color: black; /* Black background for description section */
+  background-color: black; /* Black background for description */
   color: white; /* White text for readability */
-  text-align: center; /* Center-align the description */
-  padding: 15px; /* Add consistent spacing */
-  font-size: 1rem; /* Adjust font size */
-  width: 100%; /* Ensure description spans the full width */
-  box-sizing: border-box; /* Prevent overflow */
+  padding: 8px; /* Compact padding */
+  font-size: 0.9rem; /* Adjust font size */
 }
 
-.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type a {
+.cards-wrapper > .cards.block > ul > li > .cards-card-body a {
   text-decoration: none; /* Remove underline from links */
-  color: white; /* Ensure links are white for readability */
+  color: white; /* Ensure links are white */
 }
 
 @media (max-width: 768px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 calc(50% - 16px); /* Display two cards per row */
+    width: calc(50% - 16px); /* Two blocks per row for smaller screens */
   }
 }
 
 @media (max-width: 580px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 100%; /* Display one card per row */
+    width: 100%; /* One block per row for smaller screens */
   }
 }
