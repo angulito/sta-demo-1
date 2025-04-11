@@ -1,74 +1,80 @@
-.cards-wrapper {
-  display: flex;
-  flex-direction: column; /* Stack top-level elements vertically */
-  gap: 40px; /* Space between the top section and the card grid */
-}
 
-.cards-wrapper > .cards.block {
-  display: flex; /* Use flexbox for the overall card container */
-  flex-flow: row wrap; /* Allow cards to wrap into multiple rows */ /* Ensure cards are side-by-side */
-  justify-content: center; /* Center align all cards */
-  gap: 16px; /* Reduce spacing between cards to match original layout */
-  padding: 0;
-  margin: 0;
+.cards-wrapper {
+  display: flex; /* Use flexbox for overall layout */
+  flex-wrap: wrap; /* Allow cards to wrap into rows */
+  gap: 20px; /* Space between cards */
+  justify-content: center; /* Center content horizontally */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
 }
 
 .cards-wrapper > .cards.block > ul {
-  display: flex; /* Ensure the list acts as a flex container */
-  flex-flow: row wrap; /* Wrap the cards into multiple rows */ /* Ensure cards are side-by-side */
-  justify-content: center; /* Center align the cards horizontally */
-  gap: 16px; /* Reduce spacing between cards to match original layout */
-  padding: 0;
-  margin: 0;
+  display: flex; /* Flexbox for card row layout */
+  flex-wrap: wrap; /* Allow wrapping for responsive design */
+  gap: 20px; /* Equal spacing between cards */
+  justify-content: center; /* Center cards in the row */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
   list-style: none; /* Remove default list styling */
 }
 
 .cards-wrapper > .cards.block > ul > li {
-  display: flex; /* Make each card a flex container */
-  flex-direction: column; /* Stack image and red card body vertically */
-  flex: 0 1 calc(33.333% - 16px); /* Fixed card width for three columns */
+  display: flex; /* Flexbox for card content */
+  flex-direction: column; /* Stack content vertically */
+  flex: 0 1 calc(33.333% - 20px); /* Three cards per row */
   box-sizing: border-box; /* Ensure consistent sizing */
-  background-color: white; /* Add a white background for cards */
-  overflow: hidden; /* Prevent overflow */
-  border-radius: 0; /* Remove rounded corners */
-  margin: 0; /* Remove unnecessary margins */
+  background-color: #000000; /* Black background for cards */
+  overflow: hidden; /* Prevent content overflow */
+  border-radius: 8px; /* Rounded corners for the card */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-image {
-  width: 100%;
-  display: block; /* Add this to remove inline element spacing */
-  line-height: 0; /* Add this to remove any line-height gaps */
+  width: 100%; /* Image spans full width */
+  margin: 0; /* Remove margin */
 }
 
-.cards-wrapper > .cards.block > ul > li img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  margin: 0;
-  display: block; /* Add this to remove inline element spacing */
+.cards-wrapper > .cards.block > ul > li > .cards-card-image img {
+  width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
 }
 
-.cards-wrapper>.cards.block>ul>li>.cards-card-body {
-  margin: 0;
-  background-color: #eb000a;
-  color: #fff;
-  padding: 10px;
-  font-size: 0.9rem;
-  text-transform: uppercase;
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type {
+  display: flex; /* Flexbox for text alignment */
+  flex-direction: row; /* Align content horizontally */
+  background-color: #FF0000; /* Red background */
+  color: #FFF; /* White text */
+  justify-content: space-between; /* Align text left and right */
+  align-items: center; /* Center content vertically */
+  padding: 10px; /* Add spacing inside the red section */
+  font-size: 14px; /* Smaller font size */
+  width: 100%; /* Ensure the banner spans the full width */
 }
 
-.cards-wrapper>.cards.block>ul>li>.cards-card-body p {
-  margin: 0.3rem;
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type {
+  background-color: #000000; /* Black background */
+  color: #FFF; /* White text */
+  text-align: center; /* Align text horizontally */
+  padding: 15px; /* Space inside the black section */
+  font-size: 16px; /* Larger font size for the title */
 }
 
-@media (width <= 768px) {
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type p:first-of-type {
+  display: none; /* Hide "Posted on" and "X Images" in the black section */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type a {
+  text-decoration: none; /* Remove link underline */
+  color: inherit; /* Ensure link matches the text color */
+}
+
+@media (max-width: 768px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 calc(50% - 16px);
+    flex: 0 1 calc(50% - 20px); /* Two cards per row on tablets */
   }
 }
 
-@media (width <= 580px) {
+@media (max-width: 580px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 100%;
+    flex: 0 1 100%; /* One card per row on small screens */
   }
 }
