@@ -1,32 +1,25 @@
-.cards-wrapper {
-  display: flex;
-  flex-direction: column; /* Stack top-level elements vertically */
-  gap: 40px; /* Space between the top section and the card grid */
-}
 
-.cards-wrapper > .cards.block {
-  display: flex; /* Use flexbox for the overall card container */
-  flex-flow: row wrap; /* Allow cards to wrap into multiple rows */ /* Ensure cards are side-by-side */
-  justify-content: center; /* Center align all cards */
-  gap: 16px; /* Reduce spacing between cards to match original layout */
-  padding: 0;
-  margin: 0;
+.cards-wrapper {
+  display: flex; /* Use flexbox for the main container */
+  flex-wrap: wrap; /* Create a responsive layout with wrapping rows */
+  gap: 24px; /* Space between cards */
+  justify-content: center; /* Center the cards horizontally */
 }
 
 .cards-wrapper > .cards.block > ul {
   display: flex; /* Ensure the list acts as a flex container */
-  flex-flow: row wrap; /* Wrap the cards into multiple rows */ /* Ensure cards are side-by-side */
+  flex-flow: row wrap; /* Wrap the cards into multiple rows */
   justify-content: center; /* Center align the cards horizontally */
-  gap: 16px; /* Reduce spacing between cards to match original layout */
-  padding: 0;
-  margin: 0;
+  gap: 24px; /* Space between cards */
+  padding: 0; /* Remove default padding for the list */
+  margin: 0; /* Remove default margin */
   list-style: none; /* Remove default list styling */
 }
 
 .cards-wrapper > .cards.block > ul > li {
   display: flex; /* Make each card a flex container */
-  flex-direction: column; /* Stack image and red card body vertically */
-  flex: 0 1 calc(33.333% - 16px); /* Fixed card width for three columns */
+  flex-direction: column; /* Stack image and card body vertically */
+  flex: 0 1 calc(33.333% - 24px); /* Fixed card width for three columns */
   box-sizing: border-box; /* Ensure consistent sizing */
   background-color: white; /* Add a white background for cards */
   overflow: hidden; /* Prevent overflow */
@@ -63,7 +56,7 @@
 
 @media (width <= 768px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 calc(50% - 16px);
+    flex: 0 1 calc(50% - 24px);
   }
 }
 
