@@ -9,50 +9,61 @@
 }
 
 .cards-wrapper > .cards.block > ul {
-  display: flex; /* Ensure the list acts as a flex container */
-  flex-wrap: wrap; /* Wrap the cards into rows */
+  display: flex; /* Flexbox layout for the row of cards */
+  flex-wrap: wrap; /* Allow wrapping for responsive design */
   gap: 20px; /* Equal spacing between cards */
+  justify-content: space-between; /* Spread the cards evenly */
   padding: 0;
   margin: 0;
-  list-style: none; /* Remove default list styling */
+  list-style: none; /* Remove list styling */
 }
 
 .cards-wrapper > .cards.block > ul > li {
-  flex: 0 1 calc(33.333% - 20px); /* Three cards per row with spacing */
+  display: flex;
+  flex-direction: column; /* Stack card sections vertically */
+  flex: 0 1 calc(33.333% - 20px); /* Ensure three cards per row */
   box-sizing: border-box; /* Maintain consistent sizing */
-  background-color: #212121; /* Match original card background */
-  border-radius: 8px; /* Rounded corners for a modern look */
+  background-color: #000000; /* Black background for the card */
   overflow: hidden; /* Prevent content overflow */
   margin: 0;
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-image {
-  width: 100%; /* Ensure image spans full width */
-  line-height: 0; /* Remove gaps caused by line height */
+  width: 100%; /* Image spans the full width of the card */
+  line-height: 0; /* Remove line-height gaps */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-image img {
-  width: 100%; /* Ensure image responsiveness */
+  width: 100%; /* Image is responsive */
   height: auto;
   object-fit: cover; /* Maintain image proportions */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type {
-  background-color: #D50000; /* Bright red background */
-  color: #FFFFFF; /* White text */
-  text-align: center; /* Center-align metadata text */
-  padding: 10px 0; /* Add padding for spacing */
-  font-size: 1rem; /* Adjust font size */
-  text-transform: none; /* Remove uppercase transformation */
+  display: flex; /* Use flexbox for text alignment */
+  flex-direction: row; /* Ensure text aligns horizontally */
+  background-color: #e30613; /* Red background */
+  color: #ffffff; /* White text */
+  justify-content: center; /* Center-align content horizontally */
+  align-items: center; /* Center-align content vertically */
+  padding: 10px; /* Add spacing inside the bar */
+  font-size: 14px; /* Adjust font size */
+  font-weight: bold; /* Bold text */
+  margin: 0; /* Remove unnecessary margins */
+  width: 100%; /* Ensure red bar spans full width */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type {
-  background-color: #212121; /* Dark gray background */
-  color: #FFFFFF; /* White text */
-  text-align: center; /* Center-align title text */
-  padding: 20px; /* Add padding for spacing */
-  font-size: 1.25rem; /* Slightly larger title font size */
+  display: flex; /* Use flexbox for text alignment */
+  flex-direction: row; /* Ensure text aligns horizontally */
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  justify-content: center; /* Center-align content horizontally */
+  align-items: center; /* Center-align content vertically */
+  padding: 20px; /* Add spacing inside the black section */
+  font-size: 16px; /* Slightly larger font size for title */
   font-weight: bold; /* Bold title text */
+  width: 100%; /* Ensure black section spans full width */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type a {
@@ -63,6 +74,10 @@
 .cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type a:hover {
   color: inherit; /* Prevent hover color change */
   text-decoration: none; /* Remove underline on hover */
+}
+
+.cards-wrapper > .cards.block > ul > li {
+  border-radius: 0; /* Remove rounded corners */
 }
 
 @media (max-width: 768px) {
