@@ -1,93 +1,80 @@
 
 .cards-wrapper {
-  display: flex; /* Use flexbox for the overall layout */
+  display: flex; /* Use flexbox for overall layout */
   flex-wrap: wrap; /* Allow cards to wrap into rows */
   gap: 20px; /* Space between cards */
-  justify-content: space-between; /* Spread cards evenly */
-  padding: 0;
-  margin: 0;
+  justify-content: center; /* Center content horizontally */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
 }
 
 .cards-wrapper > .cards.block > ul {
-  display: flex; /* Flexbox layout for the row of cards */
+  display: flex; /* Flexbox for card row layout */
   flex-wrap: wrap; /* Allow wrapping for responsive design */
   gap: 20px; /* Equal spacing between cards */
-  justify-content: space-between; /* Spread the cards evenly */
-  padding: 0;
-  margin: 0;
-  list-style: none; /* Remove list styling */
+  justify-content: center; /* Center cards in the row */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  list-style: none; /* Remove default list styling */
 }
 
 .cards-wrapper > .cards.block > ul > li {
-  display: flex;
-  flex-direction: column; /* Stack card sections vertically */
-  flex: 0 1 calc(33.333% - 20px); /* Ensure three cards per row */
-  box-sizing: border-box; /* Maintain consistent sizing */
-  background-color: #000000; /* Black background for the card */
+  display: flex; /* Flexbox for card content */
+  flex-direction: column; /* Stack content vertically */
+  flex: 0 1 calc(33.333% - 20px); /* Three cards per row */
+  box-sizing: border-box; /* Ensure consistent sizing */
+  background-color: #000000; /* Black background for cards */
   overflow: hidden; /* Prevent content overflow */
-  margin: 0;
+  border-radius: 8px; /* Rounded corners for the card */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-image {
-  width: 100%; /* Image spans the full width of the card */
-  line-height: 0; /* Remove line-height gaps */
+  width: 100%; /* Image spans full width */
+  margin: 0; /* Remove margin */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-image img {
-  width: 100%; /* Image is responsive */
-  height: auto;
-  object-fit: cover; /* Maintain image proportions */
+  width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type {
-  display: flex; /* Use flexbox for text alignment */
-  flex-direction: row; /* Ensure text aligns horizontally */
-  background-color: #e30613; /* Red background */
-  color: #ffffff; /* White text */
-  justify-content: center; /* Center-align content horizontally */
-  align-items: center; /* Center-align content vertically */
-  padding: 10px; /* Add spacing inside the bar */
-  font-size: 14px; /* Adjust font size */
-  font-weight: bold; /* Bold text */
-  margin: 0; /* Remove unnecessary margins */
-  width: 100%; /* Ensure red bar spans full width */
+  display: flex; /* Flexbox for text alignment */
+  flex-direction: row; /* Align content horizontally */
+  background-color: #FF0000; /* Red background */
+  color: #FFF; /* White text */
+  justify-content: space-between; /* Align text left and right */
+  align-items: center; /* Center content vertically */
+  padding: 10px; /* Add spacing inside the red section */
+  font-size: 14px; /* Smaller font size */
+  width: 100%; /* Ensure the banner spans the full width */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type {
-  display: flex; /* Use flexbox for text alignment */
-  flex-direction: row; /* Ensure text aligns horizontally */
   background-color: #000000; /* Black background */
-  color: #ffffff; /* White text */
-  justify-content: center; /* Center-align content horizontally */
-  align-items: center; /* Center-align content vertically */
-  padding: 20px; /* Add spacing inside the black section */
-  font-size: 16px; /* Slightly larger font size for title */
-  font-weight: bold; /* Bold title text */
-  width: 100%; /* Ensure black section spans full width */
+  color: #FFF; /* White text */
+  text-align: center; /* Align text horizontally */
+  padding: 15px; /* Space inside the black section */
+  font-size: 16px; /* Larger font size for the title */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type p:first-of-type {
+  display: none; /* Hide "Posted on" and "X Images" in the black section */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type a {
   text-decoration: none; /* Remove link underline */
-  color: inherit; /* Ensure link matches text color */
-}
-
-.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type a:hover {
-  color: inherit; /* Prevent hover color change */
-  text-decoration: none; /* Remove underline on hover */
-}
-
-.cards-wrapper > .cards.block > ul > li {
-  border-radius: 0; /* Remove rounded corners */
+  color: inherit; /* Ensure link matches the text color */
 }
 
 @media (max-width: 768px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 calc(50% - 20px); /* Two cards per row on smaller screens */
+    flex: 0 1 calc(50% - 20px); /* Two cards per row on tablets */
   }
 }
 
 @media (max-width: 580px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 100%; /* One card per row on very small screens */
+    flex: 0 1 100%; /* One card per row on small screens */
   }
 }
