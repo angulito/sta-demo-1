@@ -1,8 +1,9 @@
 
 .cards-wrapper {
-  display: flex; /* Use flexbox for the overall grid layout */
-  flex-wrap: wrap; /* Ensure cards wrap into rows */
-  gap: 20px; /* Uniform spacing between cards */
+  display: flex; /* Use flexbox for the overall layout */
+  flex-wrap: wrap; /* Allow cards to wrap into rows */
+  gap: 20px; /* Space between cards */
+  justify-content: space-between; /* Spread cards evenly */
   padding: 0;
   margin: 0;
 }
@@ -17,12 +18,11 @@
 }
 
 .cards-wrapper > .cards.block > ul > li {
-  display: flex; /* Make each card a flex container */
-  flex-direction: column; /* Stack image and text vertically */
-  flex: 0 1 calc(33.333% - 20px); /* Set card width for three columns */
-  box-sizing: border-box; /* Ensure consistent sizing */
-  background-color: white; /* Add white background to cards */
-  overflow: hidden; /* Prevent overflow */
+  flex: 0 1 calc(33.333% - 20px); /* Three cards per row with spacing */
+  box-sizing: border-box; /* Maintain consistent sizing */
+  background-color: #212121; /* Match original card background */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  overflow: hidden; /* Prevent content overflow */
   margin: 0;
 }
 
@@ -32,51 +32,47 @@
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-image img {
-  width: 100%;
+  width: 100%; /* Ensure image responsiveness */
   height: auto;
   object-fit: cover; /* Maintain image proportions */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type {
-  background-color: #FF0000; /* Red background for metadata section */
+  background-color: #D50000; /* Bright red background */
   color: #FFFFFF; /* White text */
-  padding: 5px 10px; /* Compact padding */
-  font-size: 0.85rem; /* Smaller font size for metadata */
-  text-transform: uppercase; /* Ensure metadata text is uppercase */
-  text-align: left; /* Align metadata text to the left */
+  text-align: center; /* Center-align metadata text */
+  padding: 10px 0; /* Add padding for spacing */
+  font-size: 1rem; /* Adjust font size */
+  text-transform: none; /* Remove uppercase transformation */
 }
 
-.cards-wrapper > .cards.block > ul > li > .cards-card-body:not(:first-of-type) {
-  background-color: #000000; /* Black background for main text section */
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type {
+  background-color: #212121; /* Dark gray background */
   color: #FFFFFF; /* White text */
-  padding: 10px; /* Ensure consistent spacing */
-  font-size: 1rem; /* Larger font size for title */
-  font-weight: bold; /* Ensure title text is bold */
-  text-align: left; /* Align title text to the left */
+  text-align: center; /* Center-align title text */
+  padding: 20px; /* Add padding for spacing */
+  font-size: 1.25rem; /* Slightly larger title font size */
+  font-weight: bold; /* Bold title text */
 }
 
-.cards-wrapper > .cards.block > ul > li > .cards-card-body p {
-  margin: 0; /* Remove default paragraph margins */
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type a {
+  text-decoration: none; /* Remove link underline */
+  color: inherit; /* Ensure link matches text color */
 }
 
-.cards-wrapper > .cards.block > ul > li > .cards-card-body:not(:first-of-type) p strong a {
-  color: #FFFFFF; /* Ensure links inside text are white */
-  text-decoration: none; /* Remove underline on links */
-}
-
-.cards-wrapper > .cards.block > ul > li > .cards-card-body:not(:first-of-type) p strong a:hover {
-  color: #FF0000; /* Add hover effect for links */
-  text-decoration: underline; /* Add underline on hover */
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type a:hover {
+  color: inherit; /* Prevent hover color change */
+  text-decoration: none; /* Remove underline on hover */
 }
 
 @media (max-width: 768px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 calc(50% - 20px); /* Two cards per row */
+    flex: 0 1 calc(50% - 20px); /* Two cards per row on smaller screens */
   }
 }
 
 @media (max-width: 580px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 100%; /* One card per row */
+    flex: 0 1 100%; /* One card per row on very small screens */
   }
 }
