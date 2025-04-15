@@ -1,74 +1,78 @@
+
 .cards-wrapper {
   display: flex;
-  flex-direction: column; /* Stack top-level elements vertically */
-  gap: 40px; /* Space between the top section and the card grid */
-}
-
-.cards-wrapper > .cards.block {
-  display: flex; /* Use flexbox for the overall card container */
-  flex-flow: row wrap; /* Allow cards to wrap into multiple rows */ /* Ensure cards are side-by-side */
-  justify-content: center; /* Center align all cards */
-  gap: 16px; /* Reduce spacing between cards to match original layout */
+  flex-wrap: wrap; /* Allow cards to wrap into multiple rows */
+  justify-content: center; /* Center align the card grid */
+  gap: 30px; /* Add spacing between cards */
   padding: 0;
   margin: 0;
 }
 
 .cards-wrapper > .cards.block > ul {
-  display: flex; /* Ensure the list acts as a flex container */
-  flex-flow: row wrap; /* Wrap the cards into multiple rows */ /* Ensure cards are side-by-side */
-  justify-content: center; /* Center align the cards horizontally */
-  gap: 16px; /* Reduce spacing between cards to match original layout */
+  display: flex; /* Flexbox for the overall card container */
+  flex-wrap: wrap; /* Wrap cards into multiple rows */
+  justify-content: center; /* Center align all cards */
+  gap: 30px; /* Ensure equal spacing between cards */
+  list-style: none; /* Remove default list styling */
   padding: 0;
   margin: 0;
-  list-style: none; /* Remove default list styling */
 }
 
 .cards-wrapper > .cards.block > ul > li {
   display: flex; /* Make each card a flex container */
-  flex-direction: column; /* Stack image and red card body vertically */
-  flex: 0 1 calc(33.333% - 16px); /* Fixed card width for three columns */
+  flex-direction: column; /* Stack inner elements vertically */
+  flex: 0 1 calc(33.333% - 30px); /* Fixed card width for three columns */
   box-sizing: border-box; /* Ensure consistent sizing */
-  background-color: white; /* Add a white background for cards */
+  background-color: transparent; /* Keep consistent background */
   overflow: hidden; /* Prevent overflow */
-  border-radius: 0; /* Remove rounded corners */
-  margin: 0; /* Remove unnecessary margins */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-image {
-  width: 100%;
-  display: block; /* Add this to remove inline element spacing */
-  line-height: 0; /* Add this to remove any line-height gaps */
+  width: 100%; /* Ensure the image spans full width */
 }
 
 .cards-wrapper > .cards.block > ul > li img {
   width: 100%;
   height: auto;
-  object-fit: cover;
-  margin: 0;
-  display: block; /* Add this to remove inline element spacing */
+  object-fit: cover; /* Ensure image fits the container */
+  display: block;
 }
 
-.cards-wrapper>.cards.block>ul>li>.cards-card-body {
-  margin: 0;
-  background-color: #eb000a;
-  color: #fff;
-  padding: 10px;
-  font-size: 0.9rem;
-  text-transform: uppercase;
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type {
+  background-color: #FF0000; /* Red background for metadata section */
+  color: #FFFFFF; /* White text */
+  text-align: center; /* Center-align text for metadata */
+  font-size: 0.8rem; /* Smaller font for metadata */
+  text-transform: uppercase; /* Add uppercase styling for emphasis */
+  padding: 5px; /* Slim padding for compact red bar */
+  margin-bottom: 0; /* Ensure no overlap with the black section */
 }
 
-.cards-wrapper>.cards.block>ul>li>.cards-card-body p {
-  margin: 0.3rem;
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:not(:first-of-type) {
+  background-color: #000000; /* Black background for text section */
+  color: #FFFFFF; /* White text */
+  padding: 15px; /* Add padding for spacing */
+  font-size: 1rem; /* Larger font size for emphasis */
+  text-align: left; /* Left-align descriptive text for readability */
 }
 
-@media (width <= 768px) {
+.cards-wrapper > .cards.block > ul > li > .cards-card-body a {
+  color: #FFFFFF; /* Ensure link text is white */
+  text-decoration: none; /* Remove underlines */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body a:hover {
+  text-decoration: underline; /* Add hover effect for links */
+}
+
+@media (max-width: 768px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 calc(50% - 16px);
+    flex: 0 1 calc(50% - 30px); /* Two columns for medium screens */
   }
 }
 
-@media (width <= 580px) {
+@media (max-width: 580px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 100%;
+    flex: 0 1 100%; /* Single column for small screens */
   }
 }
