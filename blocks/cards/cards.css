@@ -1,5 +1,6 @@
+
 .cards-wrapper {
-  display: flex;
+  display: flex; /* Flexbox for the overall container */
   flex-direction: column; /* Stack top-level elements vertically */
   gap: 40px; /* Space between the top section and the card grid */
 }
@@ -8,7 +9,7 @@
   display: flex; /* Use flexbox for the overall card container */
   flex-flow: row wrap; /* Allow cards to wrap into multiple rows */ /* Ensure cards are side-by-side */
   justify-content: center; /* Center align all cards */
-  gap: 16px; /* Reduce spacing between cards to match original layout */
+  gap: 16px; /* Reduce spacing between cards */
   padding: 0;
   margin: 0;
 }
@@ -17,7 +18,7 @@
   display: flex; /* Ensure the list acts as a flex container */
   flex-flow: row wrap; /* Wrap the cards into multiple rows */ /* Ensure cards are side-by-side */
   justify-content: center; /* Center align the cards horizontally */
-  gap: 16px; /* Reduce spacing between cards to match original layout */
+  gap: 16px; /* Reduce spacing between cards */
   padding: 0;
   margin: 0;
   list-style: none; /* Remove default list styling */
@@ -48,7 +49,7 @@
   display: block; /* Add this to remove inline element spacing */
 }
 
-.cards-wrapper>.cards.block>ul>li>.cards-card-body {
+.cards-wrapper > .cards.block > ul > li > .cards-card-body {
   margin: 0;
   background-color: #eb000a;
   color: #fff;
@@ -57,7 +58,7 @@
   text-transform: uppercase;
 }
 
-.cards-wrapper>.cards.block>ul>li>.cards-card-body p {
+.cards-wrapper > .cards.block > ul > li > .cards-card-body p {
   margin: 0.3rem;
 }
 
@@ -71,4 +72,94 @@
   .cards-wrapper > .cards.block > ul > li {
     flex: 0 1 100%;
   }
+}
+
+.cards-wrapper {
+  display: flex; /* Flexbox for the overall container */
+  flex-wrap: wrap; /* Wrap cards into rows */
+  justify-content: space-between; /* Space cards evenly */
+  gap: 32px; /* Add consistent spacing between cards */
+  padding: 0; /* Remove padding */
+}
+
+.cards-wrapper > .cards.block {
+  display: flex; /* Use flexbox for the card container */
+  flex-wrap: wrap; /* Ensure cards wrap into rows */
+  justify-content: space-between; /* Space cards evenly */
+  gap: 32px; /* Adjust spacing for cards */
+  width: 100%; /* Ensure full container width */
+}
+
+.cards-wrapper > .cards.block > ul {
+  display: contents; /* Ensure ul acts as a pass-through container */
+}
+
+.cards-wrapper > .cards.block > ul > li {
+  display: flex; /* Make each card a flex container */
+  flex-direction: column; /* Stack content vertically */
+  flex: 0 1 calc(33.333% - 32px); /* Three cards per row with spacing */
+  background-color: #000000; /* Black background for cards */
+  color: #FFFFFF; /* White text inside cards */
+  border-radius: 8px; /* Add rounded corners */
+  overflow: hidden; /* Prevent overflow */
+  box-sizing: border-box; /* Ensure consistent sizing */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-image {
+  width: 100%; /* Ensure image spans card width */
+  margin: 0; /* Remove unnecessary margins */
+}
+
+.cards-wrapper > .cards.block > ul > li img {
+  width: 100%; /* Stretch image to fill its container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image fits neatly */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type {
+  background-color: #E30613; /* Bright red background for banner */
+  color: #FFFFFF; /* White text color */
+  font-size: 1rem; /* Adjust font size */
+  font-weight: bold; /* Bold text for emphasis */
+  text-transform: uppercase; /* Ensure consistent capitalization */
+  padding: 12px; /* Spacing inside the section */
+  text-align: center; /* Center align banner text */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:nth-of-type(2) {
+  background-color: #000000; /* Black background for titles */
+  color: #FFFFFF; /* White text color */
+  font-size: 1.2rem; /* Increase font size for prominence */
+  font-weight: bold; /* Bold title text */
+  text-align: left; /* Align text to the left */
+  padding: 12px; /* Add padding for spacing */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:nth-of-type(3) {
+  background-color: #000000; /* Black background for subtitle */
+  color: #FFFFFF; /* White text color */
+  font-size: 1rem; /* Subtitle font size */
+  text-align: left; /* Left-aligned text */
+  padding: 8px; /* Adjust padding for subtitle */
+}
+
+@media (max-width: 768px) {
+  .cards-wrapper > .cards.block > ul > li {
+    flex: 0 1 calc(50% - 16px); /* Two cards per row on medium screens */
+  }
+}
+
+@media (max-width: 580px) {
+  .cards-wrapper > .cards.block > ul > li {
+    flex: 0 1 100%; /* One card per row on small screens */
+  }
+}
+
+/* Merged styles for .cards */
+.cards.block {
+  display: flex; /* Use flexbox for the overall card container */
+  flex-wrap: wrap; /* Ensure cards wrap into rows */
+  justify-content: space-between; /* Space cards evenly */
+  gap: 32px; /* Adjust spacing for cards */
+  width: 100%; /* Ensure full container width */
 }
