@@ -1,3 +1,4 @@
+
 .cards-wrapper {
   display: flex;
   flex-direction: column; /* Stack top-level elements vertically */
@@ -6,9 +7,9 @@
 
 .cards-wrapper > .cards.block {
   display: flex; /* Use flexbox for the overall card container */
-  flex-flow: row wrap; /* Allow cards to wrap into multiple rows */ /* Ensure cards are side-by-side */
-  justify-content: center; /* Center align all cards */
-  gap: 16px; /* Reduce spacing between cards to match original layout */
+  flex-wrap: wrap; /* Enable wrapping for cards */
+  justify-content: center; /* Center align all cards horizontally */
+  gap: 20px; /* Consistent spacing between rows */
   padding: 0;
   margin: 0;
 }
@@ -17,7 +18,7 @@
   display: flex; /* Ensure the list acts as a flex container */
   flex-flow: row wrap; /* Wrap the cards into multiple rows */ /* Ensure cards are side-by-side */
   justify-content: center; /* Center align the cards horizontally */
-  gap: 16px; /* Reduce spacing between cards to match original layout */
+  gap: 20px; /* Consistent spacing between cards */
   padding: 0;
   margin: 0;
   list-style: none; /* Remove default list styling */
@@ -26,7 +27,7 @@
 .cards-wrapper > .cards.block > ul > li {
   display: flex; /* Make each card a flex container */
   flex-direction: column; /* Stack image and red card body vertically */
-  flex: 0 1 calc(33.333% - 16px); /* Fixed card width for three columns */
+  flex: 0 1 calc(33.333% - 20px); /* Fixed card width for three columns */
   box-sizing: border-box; /* Ensure consistent sizing */
   background-color: white; /* Add a white background for cards */
   overflow: hidden; /* Prevent overflow */
@@ -48,7 +49,7 @@
   display: block; /* Add this to remove inline element spacing */
 }
 
-.cards-wrapper>.cards.block>ul>li>.cards-card-body {
+.cards-wrapper > .cards.block > ul > li > .cards-card-body {
   margin: 0;
   background-color: #eb000a;
   color: #fff;
@@ -57,7 +58,7 @@
   text-transform: uppercase;
 }
 
-.cards-wrapper>.cards.block>ul>li>.cards-card-body p {
+.cards-wrapper > .cards.block > ul > li > .cards-card-body p {
   margin: 0.3rem;
 }
 
