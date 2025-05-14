@@ -8,16 +8,16 @@
 .cards-wrapper > .cards.block {
   display: flex; /* Use flex properties for the overall card container */
   flex-wrap: wrap; /* Wrap cards into multiple rows */
-  justify-content: center; /* Center-align all cards */
+  justify-content: space-between; /* Space cards evenly across the row */
   gap: 20px; /* Ensure consistent spacing */
   padding: 0;
   margin: 0;
 }
 
 .cards-wrapper > .cards.block > ul {
-  display: flex; /* Ensure the list acts as a flex container */
-  flex-wrap: wrap; /* Wrap the cards into multiple rows */
-  justify-content: center; /* Center-align the cards horizontally */
+  display: flex; /* Use Flexbox for the card container */
+  flex-wrap: wrap; /* Wrap the cards into rows */
+  justify-content: space-between; /* Align cards horizontally */
   gap: 20px; /* Balanced spacing between rows and columns */
   padding: 0;
   margin: 0;
@@ -26,13 +26,14 @@
 
 .cards-wrapper > .cards.block > ul > li {
   display: flex; /* Make each card a flex container */
-  flex-direction: column; /* Stack image and red card body vertically */
+  flex-direction: column; /* Stack image and body elements vertically */
   flex: 0 1 calc(33.333% - 20px); /* Fixed card width for three columns */
   box-sizing: border-box; /* Ensure consistent sizing */
   background-color: white; /* Add a white background for cards */
   overflow: hidden; /* Prevent overflow */
-  border-radius: 0; /* Remove rounded corners */
+  border-radius: 5px; /* Add rounded corners for cards */
   margin: 0; /* Remove unnecessary margins */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-image {
@@ -44,22 +45,43 @@
 .cards-wrapper > .cards.block > ul > li img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: cover; /* Ensure images maintain their aspect ratio */
   margin: 0;
   display: block; /* Add this to remove inline element spacing */
 }
 
-.cards-wrapper > .cards.block > ul > li > .cards-card-body {
-  margin: 0;
-  background-color: #eb000a;
-  color: #fff;
-  padding: 10px;
-  font-size: 0.9rem;
-  text-transform: uppercase;
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type {
+  display: flex; /* Align content horizontally */
+  flex-direction: row; /* Place text side-by-side */
+  justify-content: space-between; /* Space text left and right */
+  align-items: center; /* Align text vertically */
+  background-color: #FF0000; /* Red background for the banner */
+  color: #FFFFFF; /* White text */
+  padding: 10px 15px; /* Add padding for spacing */
+  font-size: 0.85rem; /* Adjust font size */
+  text-transform: none; /* Ensure text is not uppercase */
 }
 
-.cards-wrapper > .cards.block > ul > li > .cards-card-body p {
-  margin: 0.3rem;
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type p {
+  margin: 0; /* Remove default paragraph margin */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type {
+  background-color: #000000; /* Black background for the title section */
+  color: #FFFFFF; /* White text */
+  text-align: center; /* Center-align text */
+  padding: 15px; /* Add padding for spacing */
+  font-size: 1rem; /* Larger font size for the title */
+  font-weight: bold; /* Bold text for emphasis */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type p {
+  margin: 0; /* Remove unnecessary paragraph margin */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type a {
+  color: inherit; /* Ensure link inherits parent color */
+  text-decoration: none; /* Remove underline */
 }
 
 @media (width <= 768px) {
