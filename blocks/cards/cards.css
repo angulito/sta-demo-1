@@ -6,97 +6,75 @@
 }
 
 .cards-wrapper > .cards.block {
-  display: flex; /* Ensure the overall card container is a flexbox */
-  flex-wrap: wrap; /* Wrap cards into rows */
-  gap: 16px; /* Tighten spacing between rows and columns for compact layout */
-  justify-content: space-between; /* Align items horizontally */
+  display: flex; /* Flexbox layout for the cards container */
+  flex-wrap: wrap; /* Wrap items into rows */
+  gap: 32px; /* Increase spacing between rows and columns */
+  justify-content: space-evenly; /* Spread out cards evenly */
   padding: 0;
   margin: 0;
 }
 
 .cards-wrapper > .cards.block > ul {
-  display: flex; /* Set the direct child element of the block as flex container */
-  flex-wrap: wrap; /* Ensure cards flow into rows */
-  gap: 16px; /* Reduce spacing for closer alignment */
+  display: flex; /* Ensure the list becomes a flex container */
+  flex-wrap: wrap; /* Wrap cards into rows */
+  gap: 32px; /* Increase gaps between cards */
   padding: 0;
   margin: 0;
   list-style: none; /* Remove default list styling */
 }
 
 .cards-wrapper > .cards.block > ul > li {
-  display: flex; /* Make each card a flex container */
-  flex-direction: column; /* Stack elements vertically within each card */
-  flex: 0 1 calc(33.333% - 16px); /* Ensure three columns per row with tighter spacing */
+  display: flex; /* Flexbox layout for individual cards */
+  flex-direction: row; /* Align elements side by side within cards */
+  flex: 0 1 calc(33.333% - 32px); /* Ensure three columns per row with spacing */
   box-sizing: border-box; /* Ensure consistent sizing */
-  background-color: transparent; /* Transparent background for card */
-  overflow: hidden; /* Prevent overflow */
-  border-radius: 0; /* Remove rounded corners */
-  box-shadow: none; /* Remove shadows for flat design */
-  margin: 0; /* Remove unnecessary margins */
+  border-radius: 8px; /* Add rounded corners */
+  background-color: #ffffff; /* Optional: Add a white background for contrast */
+  overflow: hidden; /* Prevent content overflow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadows for depth */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-image {
-  width: 100%;
-  display: block; /* Add this to remove inline element spacing */
-  line-height: 0; /* Remove any spacing around images */
+  width: 50%; /* Ensure image takes half the width */
+  display: block; /* Remove inline element spacing */
+  margin-right: 16px; /* Add spacing between the image and right content */
 }
 
 .cards-wrapper > .cards.block > ul > li img {
-  width: 100%;
-  height: auto;
-  object-fit: cover; /* Ensure images maintain their aspect ratio */
-  margin: 0;
-  display: block; /* Add this to remove inline element spacing */
+  width: 100%; /* Ensure images span the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px 0 0 8px; /* Rounded corners on the left side */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body {
+  display: flex; /* Flexbox layout for metadata and title sections */
+  flex-direction: row; /* Align metadata and title side by side */
+  width: 50%; /* Ensure the text section takes up half the card width */
+  justify-content: space-between; /* Spread out text within the body */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type {
-  background-color: #E30613; /* Red background for metadata section */
-  color: #FFFFFF; /* White text */
-  display: flex; /* Ensure horizontal alignment */
-  flex-direction: row; /* Align metadata text side-by-side */
-  align-items: center; /* Vertically center content */
-  justify-content: space-between; /* Separate metadata content */
-  padding: 8px 12px; /* Compact padding inside metadata section */
-  font-size: 0.85rem; /* Adjust font size */
-  text-transform: none; /* Ensure text is not uppercase */
-}
-
-.cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type p {
-  margin: 0; /* Ensure metadata text is compact */
+  background-color: #e50000; /* Vibrant red color for the metadata bar */
+  color: #ffffff; /* White text */
+  padding: 16px; /* Add spacing around the metadata bar */
+  font-size: 0.9rem; /* Slightly larger font for readability */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type {
   background-color: #000000; /* Black background for the title section */
-  color: #FFFFFF; /* White text */
-  text-align: left; /* Left-align title text */
-  padding: 8px 12px; /* Compact padding for title section */
-  font-size: 1rem; /* Adjust font size */
-  font-weight: bold; /* Bold text for emphasis */
-}
-
-.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type p:last-child {
-  color: #999999; /* Gray text for subtitles */
-  font-size: 0.85rem; /* Smaller font size for subtitles */
-  margin-top: 4px; /* Add slight spacing below title */
-}
-
-.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type p {
-  margin: 0; /* Ensure compact spacing */
-}
-
-.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type a {
-  color: #FFFFFF; /* Ensure link text remains white */
-  text-decoration: none; /* Remove underline from links */
+  color: #ffffff; /* White text */
+  padding: 16px; /* Add spacing around the title */
+  font-size: 1.1rem; /* Slightly larger font for emphasis */
 }
 
 @media (max-width: 768px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 calc(50% - 16px); /* Two columns for medium screens */
+    flex: 0 1 calc(50% - 32px); /* Two cards per row for medium screens */
   }
 }
 
 @media (max-width: 580px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 100%; /* Single column for small screens */
+    flex: 0 1 100%; /* Single column layout for small screens */
   }
 }
