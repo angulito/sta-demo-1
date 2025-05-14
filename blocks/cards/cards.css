@@ -1,3 +1,4 @@
+
 .cards-wrapper {
   display: flex;
   flex-direction: column; /* Stack top-level elements vertically */
@@ -5,47 +6,71 @@
 }
 
 .cards-wrapper > .cards.block {
-  display: flex; /* Use flexbox for the overall card container */
-  flex-flow: row wrap; /* Allow cards to wrap into multiple rows */ /* Ensure cards are side-by-side */
-  justify-content: center; /* Center align all cards */
-  gap: 16px; /* Reduce spacing between cards to match original layout */
+  display: flex; /* Flex layout for the card container */
+  flex-wrap: wrap; /* Wrap rows for responsiveness */
+  justify-content: center; /* Center align rows */
+  gap: 16px; /* Space between rows */
   padding: 0;
   margin: 0;
 }
 
 .cards-wrapper > .cards.block > ul {
-  display: flex; /* Ensure the list acts as a flex container */
-  flex-flow: row wrap; /* Wrap the cards into multiple rows */ /* Ensure cards are side-by-side */
-  justify-content: center; /* Center align the cards horizontally */
-  gap: 16px; /* Reduce spacing between cards to match original layout */
-  padding: 0;
-  margin: 0;
-  list-style: none; /* Remove default list styling */
+  display: flex; /* Flex layout for the list */
+  flex-wrap: wrap; /* Ensure cards wrap into rows */
+  gap: 16px; /* Adjust spacing between cards */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  list-style: none; /* Remove list styling */
+  justify-content: center; /* Center align cards within the row */
 }
 
 .cards-wrapper > .cards.block > ul > li {
-  display: flex; /* Make each card a flex container */
-  flex-direction: column; /* Stack image and red card body vertically */
-  flex: 0 1 calc(33.333% - 16px); /* Fixed card width for three columns */
+  display: flex; /* Flex layout for individual cards */
+  flex-direction: column; /* Stack elements vertically */
+  flex: 0 1 calc(33.333% - 16px); /* Ensure three cards per row */
   box-sizing: border-box; /* Ensure consistent sizing */
-  background-color: white; /* Add a white background for cards */
-  overflow: hidden; /* Prevent overflow */
-  border-radius: 0; /* Remove rounded corners */
+  background-color: white; /* White background for cards */
+  overflow: hidden; /* Prevent content overflow */
   margin: 0; /* Remove unnecessary margins */
+  border-radius: 0; /* Remove rounded corners */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-image {
   width: 100%;
-  display: block; /* Add this to remove inline element spacing */
-  line-height: 0; /* Add this to remove any line-height gaps */
+  display: block; /* Ensure block element for images */
+  line-height: 0; /* Remove spacing below images */
 }
 
 .cards-wrapper > .cards.block > ul > li img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: cover; /* Cover container space */
   margin: 0;
-  display: block; /* Add this to remove inline element spacing */
+  display: block; /* Ensure block element for images */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type {
+  background-color: #ff0000; /* Red background */
+  color: white; /* White text */
+  padding: 6px; /* Adjust padding for better proportionality */
+  font-size: 12px; /* Smaller font size for metadata */
+  text-align: center; /* Center-align text */
+  font-weight: normal; /* Normal font weight */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type {
+  background-color: #000000; /* Black background */
+  color: white; /* White text */
+  padding: 24px; /* Increase padding for title emphasis */
+  font-size: 18px; /* Larger font size for title */
+  font-weight: bold; /* Bold font for title */
+  text-align: center; /* Center-align content */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Ensure links are white */
+  font-weight: bold; /* Bold font for links */
 }
 
 .cards-wrapper>.cards.block>ul>li>.cards-card-body {
@@ -61,14 +86,14 @@
   margin: 0.3rem;
 }
 
-@media (width <= 768px) {
+@media (max-width: 768px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 calc(50% - 16px);
+    flex: 0 1 calc(50% - 16px); /* Two cards per row for smaller screens */
   }
 }
 
-@media (width <= 580px) {
+@media (max-width: 580px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 100%;
+    flex: 0 1 100%; /* Single column layout for very small screens */
   }
 }
