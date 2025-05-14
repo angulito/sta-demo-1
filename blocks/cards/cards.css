@@ -16,65 +16,69 @@
 
 .cards-wrapper > .cards.block > ul {
   display: flex; /* Ensure the list becomes a flex container */
-  flex-wrap: wrap; /* Wrap cards into rows */
-  gap: 32px; /* Increase gaps between cards */
+  flex-wrap: wrap; /* Allow cards to wrap into rows */
+  gap: 20px; /* Adjust spacing between cards */
   padding: 0;
   margin: 0;
   list-style: none; /* Remove default list styling */
 }
 
 .cards-wrapper > .cards.block > ul > li {
-  display: flex; /* Flexbox layout for individual cards */
-  flex-direction: row; /* Align elements side by side within cards */
-  flex: 0 1 calc(33.333% - 32px); /* Ensure three columns per row with spacing */
+  display: flex; /* Flex container for individual cards */
+  flex-direction: column; /* Stack card sections vertically */
+  flex: 0 1 calc(50% - 20px); /* Two cards per row */
   box-sizing: border-box; /* Ensure consistent sizing */
-  border-radius: 8px; /* Add rounded corners */
-  background-color: #ffffff; /* Optional: Add a white background for contrast */
-  overflow: hidden; /* Prevent content overflow */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadows for depth */
+  background-color: #000000; /* Black background */
+  border-radius: 8px; /* Add rounded corners to blocks */
+  overflow: hidden; /* Prevent overflow issues */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-image {
-  width: 50%; /* Ensure image takes half the width */
-  display: block; /* Remove inline element spacing */
-  margin-right: 16px; /* Add spacing between the image and right content */
+  width: 100%; /* Full width of the image */
 }
 
 .cards-wrapper > .cards.block > ul > li img {
-  width: 100%; /* Ensure images span the container */
+  display: block; /* Remove inline element space */
+  width: 100%; /* Ensure image spans full width */
   height: auto; /* Maintain aspect ratio */
-  border-radius: 8px 0 0 8px; /* Rounded corners on the left side */
-}
-
-.cards-wrapper > .cards.block > ul > li > .cards-card-body {
-  display: flex; /* Flexbox layout for metadata and title sections */
-  flex-direction: row; /* Align metadata and title side by side */
-  width: 50%; /* Ensure the text section takes up half the card width */
-  justify-content: space-between; /* Spread out text within the body */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-body:first-of-type {
-  background-color: #e50000; /* Vibrant red color for the metadata bar */
-  color: #ffffff; /* White text */
-  padding: 16px; /* Add spacing around the metadata bar */
-  font-size: 0.9rem; /* Slightly larger font for readability */
+  display: flex; /* Ensures the metadata bar is a flex container */
+  flex-direction: row; /* Align elements side by side */
+  align-items: center; /* Center align content vertically */
+  justify-content: center; /* Center align content horizontally */
+  background-color: #FF0000; /* Red background */
+  color: #FFFFFF; /* White text */
+  width: 100%; /* Full width below image */
+  padding: 10px; /* Adjust padding for spacing */
+  font-size: 0.9rem; /* Adjust font size for readability */
+  font-weight: bold; /* Make the text prominent */
 }
 
 .cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type {
-  background-color: #000000; /* Black background for the title section */
-  color: #ffffff; /* White text */
-  padding: 16px; /* Add spacing around the title */
-  font-size: 1.1rem; /* Slightly larger font for emphasis */
+  display: flex; /* Ensures the black section is a flex container */
+  flex-direction: row; /* Align elements side by side */
+  align-items: center; /* Center align content vertically */
+  justify-content: flex-start; /* Align text to the left */
+  background-color: #000000; /* Black background */
+  color: #FFFFFF; /* White text */
+  width: 100%; /* Full width at the bottom */
+  padding: 16px; /* Add more padding for spacing */
+  font-size: 1.1rem; /* Slightly larger font size for emphasis */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type a {
+  color: #FFFFFF; /* White link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.cards-wrapper > .cards.block > ul > li > .cards-card-body:last-of-type a:hover {
+  text-decoration: underline; /* Optional hover effect */
 }
 
 @media (max-width: 768px) {
   .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 calc(50% - 32px); /* Two cards per row for medium screens */
-  }
-}
-
-@media (max-width: 580px) {
-  .cards-wrapper > .cards.block > ul > li {
-    flex: 0 1 100%; /* Single column layout for small screens */
+    flex: 0 1 100%; /* Single card per row for smaller screens */
   }
 }
