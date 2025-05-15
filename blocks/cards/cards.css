@@ -2,7 +2,7 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px; /* Reduced spacing between cards for tighter layout */
+  gap: 16px; /* Reduce spacing between cards for tighter layout */
   justify-content: flex-start; /* Align cards to start of the container */
 }
 
@@ -20,18 +20,15 @@
 .cards > ul > li {
   display: flex;
   flex-direction: column; /* Stack elements vertically inside each card */
-  flex: 0 1 calc(33.333% - 12px); /* Adjust width for more balanced cards */
-  background: transparent;
-  border-radius: 0;
-  box-shadow: none;
-  min-width: 0;
-  min-height: 0;
+  flex: 0 1 calc(33.333% - 16px); /* Adjust width for more balanced cards */
+  background: #000; /* Black background for cards */
+  border-radius: 8px; /* Optional rounded corners */
   overflow: hidden;
 }
 
 .cards .cards-card-image {
   width: 100%; /* Ensure the image spans the full width of its container */
-  aspect-ratio: 4 / 3; /* Adjust aspect ratio for taller images */
+  aspect-ratio: 4 / 3; /* Adjust aspect ratio for shorter images */
   background: #e0e0e0;
   display: flex; /* Allow for consistent handling of inner alignment */
   justify-content: center;
@@ -40,7 +37,7 @@
 
 .cards .cards-card-image img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   display: block;
 }
@@ -50,50 +47,44 @@
   flex-direction: row; /* Ensure text elements are side by side */
   justify-content: space-between; /* Space between left-aligned and right-aligned text */
   align-items: center; /* Vertically center items */
-  background: #e10600;
-  color: #fff;
-  padding: 0 8px; /* Reduce padding for balanced alignment */
+  background: #FF0000; /* Red background */
+  color: #fff; /* White text */
+  padding: 0 12px; /* Reduce padding for balanced alignment */
   height: 36px; /* Adjust height to match original design */
-  min-height: 36px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 13px; /* Reduce font size for better readability */
+  font-size: 13px; /* Adjust font size for better readability */
+  font-weight: bold;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  border: none;
-  margin: 0;
 }
 
 .cards > ul > li > .cards-card-body:nth-of-type(2) p {
   margin: 0;
   padding: 0;
-  font-weight: normal;
-  color: #fff;
+  line-height: 36px; /* Vertically center text within the red bar */
 }
 
 .cards > ul > li > .cards-card-body:nth-of-type(3) {
-  background: #232323;
-  color: #fff;
-  padding: 26px 16px; /* Add more padding for content breathing room */
-  min-height: 120px; /* Increase height for better proportions */
+  background: #000; /* Black background for text section */
+  color: #fff; /* White text */
+  padding: 16px 12px; /* Reduce padding for tighter layout */
   display: flex;
   flex-direction: column; /* Stack text elements vertically */
   justify-content: center; /* Center content within the black text section */
-  width: 100%;
 }
 
 .cards > ul > li > .cards-card-body:nth-of-type(3) p {
   margin: 0;
-  font-size: 19px; /* Increase font size for title text */
+  font-size: 14px; /* Reduce font size for title text */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #fff;
-  line-height: 1.3;
+  line-height: 1.5; /* Adjust line height for readability */
 }
 
 .cards > ul > li > .cards-card-body:nth-of-type(3) p:not(:first-child) {
-  font-size: 15px; /* Ensure subtitle text is slightly smaller */
-  color: #cccccc; /* Adjust subtitle text color */
-  font-weight: normal;
+  font-size: 12px; /* Match subtitle font size to original */
+  color: #b3b3b3; /* Adjust subtitle text color */
   margin-top: 6px; /* Reduce spacing between title and subtitle */
 }
 
@@ -110,12 +101,13 @@
 
 @media (max-width: 900px) {
   .cards > ul > li {
-    flex: 0 1 calc(50% - 18px);
+    flex: 0 1 calc(50% - 16px); /* Ensure balanced spacing for two cards per row */
   }
 }
 
 @media (max-width: 600px) {
   .cards > ul > li {
-    flex: 0 1 100%;
+    flex: 0 1 100%; /* Stack cards vertically */
+    margin-bottom: 16px; /* Reduce spacing between stacked cards */
   }
 }
